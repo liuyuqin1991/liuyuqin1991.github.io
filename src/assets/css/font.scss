@@ -1,0 +1,15 @@
+@mixin font-custom($fontFamily:"PingFang SC",$fontSize:14px,$fontColor:#000,$fontWeight:normal,$letterSpacing:1px){
+  font-family: $fontFamily,"PingFang SC","Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,sans-serif;
+  font-size: $fontSize;
+  color:$fontColor;
+  font-weight:$fontWeight;
+  letter-spacing: $letterSpacing;
+}
+.font-common{
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: "PingFang SC","Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,sans-serif;
+}

@@ -1,0 +1,13 @@
+@import "../../assets/css/index";
+
+.home{
+  width: 100%;
+  height: 100%;
+
+  .header{
+    position: fixed;
+    width: 100%;
+    min-height: 66px;
+    z-index: 600;
+  }
+}
