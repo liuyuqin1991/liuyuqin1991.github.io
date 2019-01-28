@@ -5,6 +5,11 @@
   src: local('cb'),url("../../assets/font/custom-black.otf") format('opentype');
 }
 
+@font-face{
+  font-family: showg;
+  src: local('showg'),url("../../assets/font/showg.ttf") format('opentype');
+}
+
 .intro{
   @extend .flex-row-centerP-centerS;
   background: rgba(17,17,17,1) url(../../assets/image/intro-bg.jpg) no-repeat;
@@ -29,16 +34,33 @@
     @extend .flex-column-centerP-centerS;
 
     .head{
-      @include font-custom("Showcard Gothic",3vmin,$c-primary,bold,2px);
+      @include font-custom("showg",3vmin,$c-primary,bold,2px);
     }
 
     .welcome{
-      @include font-custom("Showcard Gothic",13vmin,$c-white,bold,2px);
+      @include font-custom("showg",13vmin,$c-white,bold,2px);
       margin: -15px 0 10px 0;
     }
 
     .tag{
       @extend .flex-row-centerP-centerS;
+
+      .tag-icon{
+        width: 16px;
+        height: 16px;
+
+        &.left{
+          background: url("../../assets/image/code.svg") no-repeat;
+          background-size: 100% 100%;
+          margin-right: 10px;
+        }
+
+        &.right{
+          background: url("../../assets/image/music.svg") no-repeat;
+          background-size: 100% 100%;
+          margin-left: 10px;
+        }
+      }
 
       .tag-item{
         @include font-custom("cb",2vmin,$c-white-8,normal);
@@ -54,7 +76,7 @@
     }
 
     .more-btn{
-      @include font-custom("Showcard Gothic",1.5vmin,$c-white,normal,4px);
+      @include font-custom("showg",1.5vmin,$c-white,normal,4px);
       margin-top: 60px;
     }
   }
