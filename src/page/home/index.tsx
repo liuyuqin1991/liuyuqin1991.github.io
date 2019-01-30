@@ -52,6 +52,15 @@ class HomeComponent extends BaseComponent<HomeProps, HomeState> {
                     </div>
                 </header>
                 <Intro />
+                <footer className="footer">
+                    <ul className="contact">
+                        <li key="contact-0" className="contact-icon qq"></li>
+                        <li key="contact-1" className="contact-icon wechat"></li>
+                        <li key="contact-1" className="contact-icon github"></li>
+                        <li key="contact-1" className="contact-icon csdn"></li>
+                        <li key="contact-1" className="contact-icon youku"></li>
+                    </ul>
+                </footer>
             </div>
         );
     }

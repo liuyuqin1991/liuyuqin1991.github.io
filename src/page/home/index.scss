@@ -16,8 +16,8 @@
         .top-bar {
             @extend .flex-row-centerP-centerS;
             position: absolute;
-            left: 15%;
-            padding: 10px 0;
+            left: 10%;
+            padding: 20px 0;
             .top-bar-icon {
                 @extend .flex-column-centerP-centerS;
                 width: 40px;
@@ -76,6 +76,54 @@
                     normal,
                     4px);
                     margin-bottom: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .footer {
+        @extend .flex-row-centerP-centerS;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        min-height: 100px;
+        z-index: 600;
+        .contact {
+            @extend .flex-row-spacebetweenP-centerS;
+            .contact-icon {
+                width: 30px;
+                height: 30px;
+                margin: 0 15px;
+                cursor: pointer;
+                &.qq {
+                    background: url("../../assets/image/qq.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+                &.wechat {
+                    background: url("../../assets/image/wechat.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+                &.github {
+                    background: url("../../assets/image/github.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+                &.csdn {
+                    background: url("../../assets/image/csdn.svg") no-repeat;
+                    background-size: 100% 100%;
+                    width: 45px;
+                    height: 45px;
+                    margin: 0 15px 0 7px;
+                }
+                &.youku {
+                    background: url("../../assets/image/youku.svg") no-repeat;
+                    background-size: 100% 100%;
+                    width: 80px;
+                    height: 80px;
+                    margin: 3px 5px 0;
+                }
+                &:hover {
+                    transition: all 0.5s ease;
+                    transform: scaleX(1.3) scaleY(1.3)
                 }
             }
         }
