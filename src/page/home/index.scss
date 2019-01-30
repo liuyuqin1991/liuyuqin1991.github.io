@@ -1,4 +1,5 @@
 @import "../../assets/css/index.scss";
+@import "../../assets/css/animation.scss";
 @font-face {
     font-family: cb;
     src: local('cb'), url("../../assets/font/custom-black.otf") format('opentype');
@@ -15,7 +16,7 @@
         .top-bar {
             @extend .flex-row-centerP-centerS;
             position: absolute;
-            left: 20%;
+            left: 15%;
             padding: 10px 0;
             .top-bar-icon {
                 @extend .flex-column-centerP-centerS;
@@ -48,7 +49,7 @@
             }
             .top-bar-label {
                 @include font-custom("cb",
-                2.3vmin,
+                2.5vmin,
                 $c-white,
                 normal,
                 4px);
@@ -58,13 +59,23 @@
                 position: absolute;
                 top: 100%;
                 left: 6px;
+                max-height: 200px;
+                opacity: 0;
+                &.main-nav-hide {
+                    @extend .fadeOutUp;
+                    opacity: 0;
+                }
+                &.main-nav-show {
+                    @extend .fadeInDown;
+                    opacity: 1;
+                }
                 li {
-                    @include font-custom("PingFang SC",
-                    2vmin,
+                    @include font-custom("cb",
+                    1.8vmin,
                     $c-white,
                     normal,
-                    2px);
-                    margin-bottom: 10px;
+                    4px);
+                    margin-bottom: 15px;
                 }
             }
         }

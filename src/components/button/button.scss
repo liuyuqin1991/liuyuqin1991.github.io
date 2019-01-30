@@ -1,14 +1,39 @@
 @import "../../assets/css/color";
-
-.base-btn{
-  padding: 20px 25px;
-  font-size:14px;
-  border-radius: 0;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-  transition: all 1s ease;
-  background-color: transparent;
-  border: 2px solid $c-white-3;
-  color:$c-white;
+@import "../../assets/css/animation.scss";
+.base-btn {
+    padding: 15px 20px;
+    font-size: 14px;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    border: 2px solid $c-white-3;
+    color: $c-white;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+    &:hover {
+        border: 2px solid rgba(255, 211, 6, 0.6);
+        transition: border-color 0.5s ease;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        background: rgba(255, 211, 6, 0.6);
+        height: 0%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transition: height 0.5s ease;
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        z-index: -1;
+    }
+    &:hover:after {
+        height: 400%;
+    }
+    &:active {
+        background: rgba(255, 211, 6, 0.8);
+    }
 }

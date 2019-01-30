@@ -9,13 +9,24 @@ import Service from './service';
 import StringUtils from '../../utils/StringUtils';
 import './index.scss'
 
-export default class IntroComponent extends BaseComponent {
+interface IntroProps {
 
-    state = {
-        intro: {
-            head: "",
-            welcome: "",
-            tag: []
+}
+
+interface IntroState {
+    intro: Intro
+}
+
+export default class IntroComponent extends BaseComponent<IntroProps, IntroState> {
+
+    constructor(props: IntroProps) {
+        super(props)
+        this.state = {
+            intro: {
+                head: "",
+                welcome: "",
+                tag: []
+            }
         }
     }
 
