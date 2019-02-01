@@ -1,8 +1,8 @@
 @import "../../assets/css/color";
 @import "../../assets/css/animation.scss";
 .base-btn {
-    padding: 15px 20px;
-    font-size: 14px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.56rem;
     border-radius: 0;
     font-weight: bold;
     text-align: center;
@@ -14,14 +14,14 @@
     overflow: hidden;
     cursor: pointer;
     outline: none;
-    &:hover {
-        border: 2px solid rgba(255, 211, 6, 0.6);
+    &:active {
+        border: 2px solid rgba(255, 211, 6, 0.8);
         transition: border-color 0.5s ease;
     }
     &:after {
         content: "";
         position: absolute;
-        background: rgba(255, 211, 6, 0.6);
+        background: rgba(255, 211, 6, 0.8);
         height: 0%;
         width: 100%;
         top: 50%;
@@ -30,10 +30,11 @@
         transform: translateX(-50%) translateY(-50%) rotate(45deg);
         z-index: -1;
     }
-    &:hover:after {
+    &:hover,
+    &:active:after {
         height: 400%;
     }
     &:active {
-        background: rgba(255, 211, 6, 0.8);
+        background: rgba(255, 211, 6, 1);
     }
 }

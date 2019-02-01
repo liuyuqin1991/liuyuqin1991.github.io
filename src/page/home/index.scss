@@ -11,37 +11,37 @@
     .header {
         position: fixed;
         width: 100%;
-        min-height: 60px;
+        min-height: 4rem;
         z-index: 600;
-        .top-bar {
+        @at-root .top-bar {
             @extend .flex-row-centerP-centerS;
             position: absolute;
-            left: 10%;
-            padding: 20px 0;
+            left: 5%;
+            padding: 0.4rem 0;
             .top-bar-icon {
                 @extend .flex-column-centerP-centerS;
-                width: 40px;
-                height: 40px;
+                width: 1.6rem;
+                height: 1.6rem;
                 color: transparent;
                 cursor: pointer;
                 .top-bar-line {
                     background-color: $c-primary;
-                    width: 22px;
-                    height: 3px;
+                    width: 0.6rem;
+                    height: 0.12rem;
                     position: relative;
                     &::before {
                         content: "";
-                        width: 22px;
-                        height: 3px;
-                        top: -8px;
+                        width: 0.6rem;
+                        height: 0.12rem;
+                        top: -0.32rem;
                         position: absolute;
                         background-color: $c-primary;
                     }
                     &::after {
                         content: "";
-                        width: 22px;
-                        height: 3px;
-                        bottom: -8px;
+                        width: 0.6rem;
+                        height: 0.12rem;
+                        bottom: -0.32rem;
                         position: absolute;
                         background-color: $c-primary;
                     }
@@ -49,17 +49,17 @@
             }
             .top-bar-label {
                 @include font-custom("cb",
-                2.5vmin,
+                0.8rem,
                 $c-white,
                 normal,
                 4px);
-                margin-left: 10px;
+                margin-left: 0.4rem;
             }
             .main-nav {
                 position: absolute;
                 top: 100%;
-                left: 6px;
-                max-height: 200px;
+                left: 0.24rem;
+                max-height: 8rem;
                 opacity: 0;
                 &.main-nav-hide {
                     @extend .fadeOutUp;
@@ -71,11 +71,11 @@
                 }
                 li {
                     @include font-custom("cb",
-                    1.8vmin,
+                    0.2rem,
                     $c-white,
                     normal,
                     4px);
-                    margin-bottom: 15px;
+                    margin-bottom: 0.6rem;
                     cursor: pointer;
                 }
             }
@@ -86,14 +86,14 @@
         position: fixed;
         bottom: 0;
         width: 100%;
-        min-height: 100px;
+        min-height: 4rem;
         z-index: 600;
-        .contact {
+        @at-root .contact {
             @extend .flex-row-spacebetweenP-centerS;
             .contact-icon {
-                width: 30px;
-                height: 30px;
-                margin: 0 15px;
+                width: 1.2rem;
+                height: 1.2rem;
+                margin: 0 0.6rem;
                 cursor: pointer;
                 &.qq {
                     background: url("../../assets/image/qq.svg") no-repeat;
@@ -110,16 +110,10 @@
                 &.csdn {
                     background: url("../../assets/image/csdn.svg") no-repeat;
                     background-size: 100% 100%;
-                    width: 45px;
-                    height: 45px;
-                    margin: 0 15px 0 7px;
                 }
                 &.youku {
                     background: url("../../assets/image/youku.svg") no-repeat;
                     background-size: 100% 100%;
-                    width: 80px;
-                    height: 80px;
-                    margin: 3px 5px 0;
                 }
                 &:hover {
                     transition: all 0.5s ease;

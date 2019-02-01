@@ -21,11 +21,33 @@ class HomeComponent extends BaseComponent<HomeProps, HomeState> {
     }
 
     componentWillMount() {
-
     }
 
     onTopBarIcon() {
         this.setState({ topBarView: this.state.topBarView == false || this.state.topBarView == null ? true : false })
+    }
+
+    onContact(contact: String) {
+        switch (contact) {
+            case "qq": {
+                break;
+            }
+            case "wechat": {
+                break;
+            }
+            case "github": {
+                window.open("https://github.com/liuyuqin1991");
+                break;
+            }
+            case "csdn": {
+                window.open("https://blog.csdn.net/liuyuqin1991");
+                break;
+            }
+            case "youku": {
+                window.open("");
+                break;
+            }
+        }
     }
 
     render() {
@@ -54,11 +76,11 @@ class HomeComponent extends BaseComponent<HomeProps, HomeState> {
                 <Intro />
                 <footer className="footer">
                     <ul className="contact">
-                        <li key="contact-0" className="contact-icon qq"></li>
-                        <li key="contact-1" className="contact-icon wechat"></li>
-                        <li key="contact-1" className="contact-icon github"></li>
-                        <li key="contact-1" className="contact-icon csdn"></li>
-                        <li key="contact-1" className="contact-icon youku"></li>
+                        <li key="contact-qq" className="contact-icon qq" onClick={this.onContact.bind(this, "qq")}></li>
+                        <li key="contact-wechat" className="contact-icon wechat" onClick={this.onContact.bind(this, "wechat")}></li>
+                        <li key="contact-github" className="contact-icon github" onClick={this.onContact.bind(this, "github")}></li>
+                        <li key="contact-csdn" className="contact-icon csdn" onClick={this.onContact.bind(this, "csdn")}></li>
+                        <li key="contact-youku" className="contact-icon youku" onClick={this.onContact.bind(this, "youku")}></li>
                     </ul>
                 </footer>
             </div>

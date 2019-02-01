@@ -15,7 +15,6 @@
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
-    min-height: 720px;
     position: relative;
     z-index: 1;
     .intro-overlay {
@@ -31,56 +30,58 @@
         @extend .flex-column-centerP-centerS;
         .head {
             @include font-custom("showg",
-            3vmin,
+            1rem,
             $c-primary,
             bold,
             2px);
         }
         .welcome {
             @include font-custom("showg",
-            13vmin,
+            3.5rem,
             $c-white,
             bold,
             5px);
-            margin: -15px 0 10px 0;
         }
         .tag {
             @extend .flex-row-centerP-centerS;
+            margin-top: 0.4rem;
             .tag-icon {
-                width: 16px;
-                height: 16px;
+                width: 0.64rem;
+                height: 0.64rem;
                 &.left {
                     background: url("../../assets/image/code.svg") no-repeat;
                     background-size: 100% 100%;
-                    margin-right: 10px;
+                    margin-right: 0.4rem;
                 }
                 &.right {
                     background: url("../../assets/image/music.svg") no-repeat;
                     background-size: 100% 100%;
-                    margin-left: 10px;
+                    margin-left: 0.4rem;
+                }
+                &:hover {
+                    transition: all 0.5s ease;
+                    transform: scaleX(1.3) scaleY(1.3) rotateY(180deg)
                 }
             }
             .tag-item {
                 @include font-custom("cb",
-                2vmin,
+                0.4rem,
                 $c-white-8,
                 normal);
             }
             .divide {
-                @extend .flex-row-centerP-centerS;
-                width: 1px;
-                height: 1.5vmin;
+                height: 0.6rem;
                 border-right: 1px solid $c-white-8;
-                margin: 0 15px;
+                margin: 0 0.6rem;
             }
         }
         .more-btn {
             @include font-custom("showg",
-            1.5vmin,
+            0.5rem,
             $c-white,
             normal,
             4px);
-            margin-top: 60px;
+            margin-top: 2.4rem;
         }
     }
 }
