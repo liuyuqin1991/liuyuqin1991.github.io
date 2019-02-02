@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/intro-bg.40ba31e2.jpg"
   },
   {
-    "revision": "edf8328b0ebda0b1ef57",
-    "url": "/static/css/main.8a77f52f.chunk.css"
+    "revision": "df410015da679794f46a",
+    "url": "/static/css/main.66e4dcb8.chunk.css"
   },
   {
     "revision": "b3ef814f3fab262de29f",
@@ -32,20 +32,16 @@ self.__precacheManifest = [
     "url": "/static/media/music.7f717f71.svg"
   },
   {
-    "revision": "edf8328b0ebda0b1ef57",
-    "url": "/static/js/main.edf8328b.chunk.js"
-  },
-  {
-    "revision": "336e09e8ff50e5329bb99936379c3c50",
-    "url": "/static/media/qq.336e09e8.svg"
+    "revision": "df410015da679794f46a",
+    "url": "/static/js/main.df410015.chunk.js"
   },
   {
     "revision": "8cbfb06a99cf13628e0e9fbda78e552e",
     "url": "/static/media/2019.8cbfb06a.svg"
   },
   {
-    "revision": "7b0898de5ec7b0d599cdd21a5cbc7700",
-    "url": "/static/media/wechat.7b0898de.svg"
+    "revision": "336e09e8ff50e5329bb99936379c3c50",
+    "url": "/static/media/qq.336e09e8.svg"
   },
   {
     "revision": "3f01155c681ca2c723c33435020a7646",
@@ -60,7 +56,11 @@ self.__precacheManifest = [
     "url": "/static/media/youku.b596a219.svg"
   },
   {
-    "revision": "469bbf3ce58d86f3a7ede1bae9add878",
+    "revision": "7b0898de5ec7b0d599cdd21a5cbc7700",
+    "url": "/static/media/wechat.7b0898de.svg"
+  },
+  {
+    "revision": "659fe84c93d2dfd5a1d698057eacf4bd",
     "url": "/index.html"
   }
 ];
