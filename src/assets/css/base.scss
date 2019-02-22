@@ -141,6 +141,13 @@ body,
     display: none;
 }
 
+.page-bg {
+    width: 100%;
+    background-color: rgba(17, 17, 17, 1);
+    background-size: 100% 100%;
+    color: #FFF;
+}
+
 @media screen and (min-width: 375px) {
     html {
         /* iPhone6的375px尺寸作为16px基准，414px正好18px大小, 600 20px */

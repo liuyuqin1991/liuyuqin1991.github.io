@@ -2,122 +2,104 @@
 @import "../../assets/css/animation.scss";
 @font-face {
     font-family: cb;
-    src: local('cb'), url("../../assets/font/custom-black.otf") format('opentype');
+    src: local('cb'), url("../../assets/font/custom-black.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: showg;
+    src: local('showg'), url("../../assets/font/showg.ttf") format('opentype');
 }
 
 .home {
     width: 100%;
     height: 100%;
     .header {
-        position: fixed;
         width: 100%;
-        min-height: 4rem;
+        height: 60px;
         z-index: 600;
-        @at-root .top-bar {
-            @extend .flex-row-centerP-centerS;
+        position: fixed;
+        .top-bar {
             position: absolute;
-            left: 5%;
-            padding: 0.4rem 0;
-            .top-bar-icon {
-                @extend .flex-column-centerP-centerS;
-                width: 1.6rem;
-                height: 1.6rem;
-                color: transparent;
-                cursor: pointer;
-                .top-bar-line {
-                    background-color: $c-primary;
-                    width: 0.6rem;
-                    height: 0.12rem;
-                    position: relative;
-                    &::before {
-                        content: "";
-                        width: 0.6rem;
-                        height: 0.12rem;
-                        top: -0.32rem;
-                        position: absolute;
-                        background-color: $c-primary;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background: url("../../assets/image/2019.svg") no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .content {
+        @extend .flex-row-centerP-centerS;
+        width: 100%;
+        height: 100%;
+        background: rgba(17, 17, 17, 1) url(../../assets/image/intro-bg.jpg) no-repeat;
+        background-size: 100% 100%;
+        color: #FFF;
+        position: relative;
+        z-index: 1;
+        .content-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(17, 17, 17, 0.8);
+            z-index: -1;
+        }
+        .content-view {
+            @extend .flex-column-centerP-centerS;
+            .content-head {
+                @include font-custom("showg",
+                1rem,
+                $c-primary,
+                bold,
+                2px);
+            }
+            .content-welcome {
+                @include font-custom("showg",
+                3.5rem,
+                $c-white,
+                bold,
+                5px);
+            }
+            .content-description {
+                @extend .flex-row-centerP-centerS;
+                margin-top: 0.4rem;
+                .description-icon {
+                    width: 0.64rem;
+                    height: 0.64rem;
+                    &.left {
+                        background: url("../../assets/image/code.svg") no-repeat;
+                        background-size: 100% 100%;
+                        margin-right: 0.4rem;
                     }
-                    &::after {
-                        content: "";
-                        width: 0.6rem;
-                        height: 0.12rem;
-                        bottom: -0.32rem;
-                        position: absolute;
-                        background-color: $c-primary;
+                    &.right {
+                        background: url("../../assets/image/music.svg") no-repeat;
+                        background-size: 100% 100%;
+                        margin-left: 0.4rem;
                     }
                 }
+                .description-item {
+                    @include font-custom("cb",
+                    0.4rem,
+                    $c-white-8,
+                    normal);
+                }
+                .divide {
+                    height: 0.4rem;
+                    border-right: 1px solid $c-white-8;
+                    margin: 0 0.6rem;
+                }
             }
-            .top-bar-label {
-                @include font-custom("cb",
-                0.8rem,
+            .more-btn {
+                @include font-custom("showg",
+                0.5rem,
                 $c-white,
                 normal,
                 4px);
-                margin-left: 0.4rem;
-            }
-            .main-nav {
-                position: absolute;
-                top: 100%;
-                left: 0.24rem;
-                max-height: 8rem;
-                opacity: 0;
-                &.main-nav-hide {
-                    @extend .fadeOutUp;
-                    opacity: 0;
-                }
-                &.main-nav-show {
-                    @extend .fadeInDown;
-                    opacity: 1;
-                }
-                li {
-                    @include font-custom("cb",
-                    0.2rem,
-                    $c-white,
-                    normal,
-                    4px);
-                    margin-bottom: 0.6rem;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-    .footer {
-        @extend .flex-row-centerP-centerS;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        min-height: 4rem;
-        z-index: 600;
-        @at-root .contact {
-            @extend .flex-row-spacebetweenP-centerS;
-            .contact-icon {
-                width: 1.2rem;
-                height: 1.2rem;
-                margin: 0 0.6rem;
-                cursor: pointer;
-                &.qq {
-                    background: url("../../assets/image/qq.svg") no-repeat;
-                    background-size: 100% 100%;
-                }
-                &.wechat {
-                    background: url("../../assets/image/wechat.svg") no-repeat;
-                    background-size: 100% 100%;
-                }
-                &.github {
-                    background: url("../../assets/image/github.svg") no-repeat;
-                    background-size: 100% 100%;
-                }
-                &.csdn {
-                    background: url("../../assets/image/csdn.svg") no-repeat;
-                    background-size: 100% 100%;
-                }
-                &.youku {
-                    background: url("../../assets/image/youku.svg") no-repeat;
-                    background-size: 100% 100%;
-                }
-                &:hover {
-                    transition: all 0.5s ease;
-                    transform: scaleX(1.3) scaleY(1.3)
+                margin-top: 2rem;
+                a {
+                    color: $c-white,
                 }
             }
         }

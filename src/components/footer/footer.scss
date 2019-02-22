@@ -1,0 +1,57 @@
+@import "../../assets/css/index.scss";
+@import "../../assets/css/animation.scss";
+@font-face {
+    font-family: cb;
+    src: local('cb'), url("../../assets/font/custom-black.ttf") format('opentype');
+}
+
+.footer {
+    @extend .flex-row-centerP-centerS;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    z-index: 600;
+    @at-root .menu {
+        width: 100%;
+        height: 100%;
+        @extend .flex-row-spacearoundP-centerS;
+        li {
+            @extend .flex-column-spacearoundP-centerS;
+            height: 90%;
+            cursor: pointer;
+            .icon {
+                width: 1.6rem;
+                height: 1.6rem;
+                &.about {
+                    background: url("../../assets/image/qq.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+                &.skills {
+                    background: url("../../assets/image/wechat.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+                &.work {
+                    background: url("../../assets/image/github.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+                &.music {
+                    background: url("../../assets/image/csdn.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+                &.contact {
+                    background: url("../../assets/image/youku.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            .label {
+                @extend .flex-row-centerP-centerS;
+                @include font-custom("cb",
+                0.6rem,
+                $c-white,
+                normal,
+                4px);
+            }
+        }
+    }
+}

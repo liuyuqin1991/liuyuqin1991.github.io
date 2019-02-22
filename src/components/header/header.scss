@@ -1,0 +1,37 @@
+@import "../../assets/css/index.scss";
+@font-face {
+    font-family: cb;
+    src: local('cb'), url("../../assets/font/custom-black.ttf") format('opentype');
+}
+
+.header {
+    @extend .flex-row-centerP-centerS;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    .homepage-btn {
+        width: 16px;
+        height: 16px;
+        background: url(../../assets/image/homepage.svg) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 22px;
+        left: 20px;
+        &:after {
+            content: "";
+            width: 27px;
+            height: 26px;
+            border: 1px solid $c-primary;
+            border-radius: 50%;
+            position: absolute;
+            top: -5px;
+            left: -6px;
+        }
+    }
+    .header-title {
+        @include font-custom("cb",
+        1rem,
+        $c-white,
+        normal);
+    }
+}

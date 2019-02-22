@@ -1,0 +1,98 @@
+@import "../../assets/css/index";
+@font-face {
+    font-family: showg;
+    src: local('showg'), url("../../assets/font/showg.ttf") format('opentype');
+}
+
+.blog {
+    @extend .page-bg;
+    position: relative;
+    z-index: 1;
+    .blog-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(17, 17, 17, 0.8);
+        z-index: -1;
+    }
+    .line-center-axis {
+        width: 2px;
+        position: absolute;
+        top: 68px;
+        bottom: 68px;
+        left: 25px;
+        background-color: $c-primary-8;
+        &:before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: $c-primary-8;
+            position: absolute;
+            top: -8px;
+            left: -3px;
+        }
+        &:after {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: $c-primary-8;
+            position: absolute;
+            bottom: -8px;
+            left: -3px;
+        }
+    }
+    .bolg-header {
+        @extend .flex-row-centerP-centerS;
+        @include font-custom("PingFang SC",
+        1rem,
+        $c-white,
+        normal);
+        height: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .blog-ul {
+        padding: 25px 25px 68px 50px;
+        position: relative;
+        .blog-li {
+            @extend .flex-row;
+            border: 2px solid $c-primary-8;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            .item-view {
+                @extend .flex-column;
+                width: 100%;
+                .title {
+                    @include font-custom("PingFang SC",
+                    0.8rem,
+                    $c-white,
+                    normal,
+                    0.1px);
+                    height: 40px;
+                }
+                .tag-view {
+                    @extend .flex-row;
+                    margin-top: 0.5rem;
+                }
+                .date {
+                    align-self: flex-end;
+                    @include font-custom("showg",
+                    0.7rem,
+                    $c-white,
+                    normal);
+                    margin-top: 0.4rem;
+                }
+            }
+        }
+        a {
+            word-break: break-all;
+            color: #FFF;
+            cursor: pointer;
+        }
+    }
+}
