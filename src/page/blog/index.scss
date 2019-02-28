@@ -21,7 +21,7 @@
         width: 2px;
         position: absolute;
         top: 68px;
-        bottom: 68px;
+        bottom: 90px;
         left: 25px;
         background-color: $c-primary-8;
         &:before {
@@ -56,7 +56,7 @@
         height: 60px;
     }
     .blog-ul {
-        padding: 25px 25px 68px 50px;
+        padding: 25px 25px 15px 50px;
         position: relative;
         .blog-li {
             @extend .flex-row;

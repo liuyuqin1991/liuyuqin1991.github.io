@@ -2,6 +2,7 @@ import React from 'react';
 import BaseComponent from '../../components/base-component';
 import Tag from '../../components/tag/tag';
 import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 import { Blog } from './interface';
 import BlogData from '../../data/blog.json';
 import './index.scss'
@@ -61,8 +62,8 @@ class BlogComponent extends BaseComponent<BlogProps, BlogState> {
                 <div className="blog-overlay"></div>
                 <div className="line-center-axis"></div>
                 <Header title="我的博客"></Header>
-                <div className="bolg-footer"></div>
                 {this.renderItem()}
+                <Footer className="bolg-footer"></Footer>
             </div>
         )
     }

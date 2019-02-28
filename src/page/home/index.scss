@@ -1,5 +1,4 @@
 @import "../../assets/css/index.scss";
-@import "../../assets/css/animation.scss";
 @font-face {
     font-family: cb;
     src: local('cb'), url("../../assets/font/custom-black.ttf") format('opentype');
@@ -14,18 +13,23 @@
     width: 100%;
     height: 100%;
     .header {
+        @extend .flex-row-flexendP;
         width: 100%;
         height: 60px;
         z-index: 600;
         position: fixed;
-        .top-bar {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 40px;
-            height: 40px;
-            background: url("../../assets/image/2019.svg") no-repeat;
-            background-size: 100% 100%;
+        .top-bar-view {
+            position: relative;
+            height: 60px;
+            .top-bar {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 40px;
+                height: 40px;
+                background: url("../../assets/image/2019.svg") no-repeat;
+                background-size: 100% 100%;
+            }
         }
     }
     .content {

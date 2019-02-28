@@ -1,7 +1,6 @@
 import React from 'react';
 import BaseComponent from '../../components/base-component';
 import Button from '../../components/button/button';
-import Footer from '../../components/footer/footer';
 import AnimationView from '../../components/animation/animation';
 import { Link } from 'react-router-dom';
 import './index.scss'
@@ -16,7 +15,11 @@ class HomeComponent extends BaseComponent {
         return (
             <div className="home">
                 <header className="header">
-                    <div className="top-bar"></div>
+                    <div className="top-bar-view">
+                        <AnimationView className="swing">
+                            <div className="top-bar"></div>
+                        </AnimationView>
+                    </div>
                 </header>
                 <div className="content">
                     <div className="content-overlay"></div>
@@ -37,7 +40,6 @@ class HomeComponent extends BaseComponent {
                         <Button className="more-btn"><Link to="/blog">MORE ABOUT ME</Link></Button>
                     </div>
                 </div>
-                <Footer />
             </div>
         );
     }

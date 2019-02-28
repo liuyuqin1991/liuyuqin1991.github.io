@@ -1,5 +1,4 @@
 @import "../../assets/css/index.scss";
-@import "../../assets/css/animation.scss";
 @font-face {
     font-family: cb;
     src: local('cb'), url("../../assets/font/custom-black.ttf") format('opentype');
@@ -7,11 +6,8 @@
 
 .footer {
     @extend .flex-row-centerP-centerS;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    height: 4rem;
-    z-index: 600;
+    height: 70px;
     @at-root .menu {
         width: 100%;
         height: 100%;
