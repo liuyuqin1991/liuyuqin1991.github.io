@@ -4,7 +4,7 @@ import Tag from '../../components/tag/tag';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import { Blog } from './interface';
-import BlogData from '../../data/blog.json';
+import BlogData from '../../data/jsons/blog.json';
 import './index.scss'
 
 interface BlogProps {
@@ -35,21 +35,22 @@ class BlogComponent extends BaseComponent<BlogProps, BlogState> {
     renderItem(): JSX.Element {
         const blogs = this.state.blogList.map((item, index) => {
             const tags = item.tag.map((t, n) => {
-                return <Tag label={t} />
+                return <Tag label={t} key={"tag-item" + n} />
             });
-            return (<li className="blog-li">
-                <div className="item-view">
-                    <div className="title">
-                        <a href={item.link}>{item.title}</a>
+            return (
+                <li className="blog-li" key={"blog-item" + index}>
+                    <div className="item-view">
+                        <div className="title">
+                            <a href={item.link}>{item.title}</a>
+                        </div>
+                        <div className="tag-view">
+                            {tags}
+                        </div>
+                        <div className="date">
+                            {item.date}
+                        </div>
                     </div>
-                    <div className="tag-view">
-                        {tags}
-                    </div>
-                    <div className="date">
-                        {item.date}
-                    </div>
-                </div>
-            </li>)
+                </li>)
         })
         return (<ul className="blog-ul">
             {blogs}

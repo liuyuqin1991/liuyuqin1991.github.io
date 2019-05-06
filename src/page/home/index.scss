@@ -1,110 +1,111 @@
 @import "../../assets/css/index.scss";
-@font-face {
-    font-family: cb;
-    src: local('cb'), url("../../assets/font/custom-black.ttf") format('opentype');
+
+$c-background:#0f0f0f;
+$c-module-background:#222222;
+$c-blue:#2196f3;
+
+@mixin tag-icon($code) {
+    width: 0.6rem;
+    height: 0.6rem;
+    content: "";
+    background: url("../../data/images/"+ $code + ".svg") no-repeat;
+    background-size: 100% 100%;
+    margin: 0.4rem;
 }
 
-@font-face {
-    font-family: showg;
-    src: local('showg'), url("../../assets/font/showg.ttf") format('opentype');
+@mixin title-icon($code) {
+    width: 1.2rem;
+    height: 1.2rem;
+    content: "";
+    background: url("../../data/images/"+ $code + ".svg") no-repeat;
+    background-size: 100% 100%;
+    margin-right: 0.4rem;
 }
 
 .home {
-    width: 100%;
-    height: 100%;
-    .header {
-        @extend .flex-row-flexendP;
-        width: 100%;
-        height: 60px;
-        z-index: 600;
-        position: fixed;
-        .top-bar-view {
-            position: relative;
-            height: 60px;
-            .top-bar {
-                position: absolute;
-                top: 20px;
-                right: 20px;
-                width: 40px;
-                height: 40px;
-                background: url("../../assets/image/2019.svg") no-repeat;
-                background-size: 100% 100%;
-            }
+    background-color: $c-background;
+    padding: 1.3rem;
+
+    .module-title {
+        @extend .flex-row-centerS;
+        align-self: flex-start;
+        padding: 1rem 0;
+
+        &.h1 {
+            @include font-custom("PingFang SC", 1.2rem, #FFF, bold);
+        }
+
+        &.h2 {
+            @include font-custom("PingFang SC", 0.8rem, #FFF, bold);
+        }
+
+        &.user:before {
+            @include title-icon("user");
         }
     }
-    .content {
-        @extend .flex-row-centerP-centerS;
-        width: 100%;
-        height: 100%;
-        background: rgba(17, 17, 17, 1) url(../../assets/image/intro-bg.jpg) no-repeat;
-        background-size: 100% 100%;
-        color: #FFF;
-        position: relative;
-        z-index: 1;
-        .content-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(17, 17, 17, 0.8);
-            z-index: -1;
+
+    .module-view {
+        @extend .flex-column-centerS;
+        background-color: $c-module-background;
+        border-radius: 10px;
+        padding: 0 1rem;
+
+        &.profile {
+            padding: 1rem;
+
+            .profile-img {
+                width: 8.5rem;
+                height: 8.5rem;
+                border-radius: 50%;
+                background: url("../../data/images/profile.jpg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            .profile-name {
+                @include font-custom("PingFang SC", 1.2rem, #FFF, bold);
+                padding: 1rem 0 0.5rem;
+            }
+
+            .profile-tag-ul {
+                @extend .flex-column-centerS;
+                @include font-custom("PingFang SC", 0.8rem, $c-blue);
+
+                .profile-tag-li {
+                    @extend .flex-row-centerS;
+
+                    &.code:before,
+                    &.code:after {
+                        @include tag-icon("code");
+                    }
+
+                    &.game:before,
+                    &.game:after {
+                        @include tag-icon("game");
+                    }
+
+                    &.music:before,
+                    &.music:after {
+                        @include tag-icon("music");
+                    }
+
+                    &.anime:before,
+                    &.anime:after {
+                        @include tag-icon("anime");
+                    }
+                }
+            }
         }
-        .content-view {
-            @extend .flex-column-centerP-centerS;
-            .content-head {
-                @include font-custom("showg",
-                1rem,
-                $c-primary,
-                bold,
-                2px);
+
+        &.about {
+            @include font-custom("PingFang SC", 0.7rem, #FFF);
+            margin-top: 1rem;
+
+            .about-name {
+                align-self: flex-start;
             }
-            .content-welcome {
-                @include font-custom("showg",
-                3.5rem,
-                $c-white,
-                bold,
-                5px);
-            }
-            .content-description {
-                @extend .flex-row-centerP-centerS;
-                margin-top: 0.4rem;
-                .description-icon {
-                    width: 0.64rem;
-                    height: 0.64rem;
-                    &.left {
-                        background: url("../../assets/image/code.svg") no-repeat;
-                        background-size: 100% 100%;
-                        margin-right: 0.4rem;
-                    }
-                    &.right {
-                        background: url("../../assets/image/music.svg") no-repeat;
-                        background-size: 100% 100%;
-                        margin-left: 0.4rem;
-                    }
-                }
-                .description-item {
-                    @include font-custom("cb",
-                    0.4rem,
-                    $c-white-8,
-                    normal);
-                }
-                .divide {
-                    height: 0.4rem;
-                    border-right: 1px solid $c-white-8;
-                    margin: 0 0.6rem;
-                }
-            }
-            .more-btn {
-                @include font-custom("showg",
-                0.5rem,
-                $c-white,
-                normal,
-                4px);
-                margin-top: 2rem;
-                a {
-                    color: $c-white,
-                }
+
+            .about-introduction {
+                @include font-custom("PingFang SC", 0.7rem, $c-blue);
             }
         }
     }
