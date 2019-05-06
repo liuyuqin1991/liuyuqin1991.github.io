@@ -37,7 +37,7 @@ class EntryComponent extends BaseComponent {
                                 <div className="description-icon right"></div>
                             </AnimationView>
                         </div>
-                        <Button className="more-btn"><Link to="/blog">MORE ABOUT ME</Link></Button>
+                        <Button className="more-btn"><Link to="/home">MORE ABOUT ME</Link></Button>
                     </div>
                 </div>
             </div>
