@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "4873d18c844413eb972cb874b2d62f66",
-    "url": "/static/media/code.4873d18c.svg"
+    "revision": "6d8357235e31d6db1966837c468e9a1e",
+    "url": "/static/media/user.6d835723.svg"
   },
   {
-    "revision": "72d1a01e1ecff8d9e7cd",
-    "url": "/static/css/main.dbcbb395.chunk.css"
+    "revision": "fa6375646496db722251",
+    "url": "/static/css/main.57e34987.chunk.css"
   },
   {
-    "revision": "80b5272fd5e5c5c3723e",
-    "url": "/static/js/1.80b5272f.chunk.js"
+    "revision": "15718d3d4778ff30eed4",
+    "url": "/static/js/1.15718d3d.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,12 +32,36 @@ self.__precacheManifest = [
     "url": "/static/media/2019.8cbfb06a.svg"
   },
   {
-    "revision": "72d1a01e1ecff8d9e7cd",
-    "url": "/static/js/main.72d1a01e.chunk.js"
+    "revision": "4873d18c844413eb972cb874b2d62f66",
+    "url": "/static/media/code.4873d18c.svg"
   },
   {
     "revision": "7f717f7128efe556dc018f210c2813d3",
     "url": "/static/media/music.7f717f71.svg"
+  },
+  {
+    "revision": "4d5d5f6471dbc40bce42b1ab52c2828b",
+    "url": "/static/media/profile.4d5d5f64.jpg"
+  },
+  {
+    "revision": "fa6375646496db722251",
+    "url": "/static/js/main.fa637564.chunk.js"
+  },
+  {
+    "revision": "456e626a41b50d3e36b58b57f4408b56",
+    "url": "/static/media/code.456e626a.svg"
+  },
+  {
+    "revision": "2cffdafc9ae5b6b2f59015c731532298",
+    "url": "/static/media/game.2cffdafc.svg"
+  },
+  {
+    "revision": "803516a0d22727919e89724c924091cd",
+    "url": "/static/media/music.803516a0.svg"
+  },
+  {
+    "revision": "a21f2cf1589faeb928b1cde46aa52429",
+    "url": "/static/media/anime.a21f2cf1.svg"
   },
   {
     "revision": "e80b9ee97e46ac32994ae9c143d09d72",
@@ -64,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/youku.b596a219.svg"
   },
   {
-    "revision": "89774a0f91b780b1302aba4a8a80b82c",
+    "revision": "aebf5ec7a2c20e5bccc334f9122d89f2",
     "url": "/index.html"
   }
 ];
