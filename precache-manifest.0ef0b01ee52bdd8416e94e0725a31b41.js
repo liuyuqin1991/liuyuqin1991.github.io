@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/code.456e626a.svg"
   },
   {
-    "revision": "1b287bba0635b4e9ddeb",
-    "url": "/static/css/main.fbf89ccd.chunk.css"
+    "revision": "e1f4fb9ae1c41e95c3cb",
+    "url": "/static/css/main.aef6e693.chunk.css"
   },
   {
-    "revision": "15718d3d4778ff30eed4",
-    "url": "/static/js/1.15718d3d.chunk.js"
+    "revision": "969ef1d4e848246c905d",
+    "url": "/static/js/1.969ef1d4.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -44,12 +44,16 @@ self.__precacheManifest = [
     "url": "/static/media/user.6d835723.svg"
   },
   {
-    "revision": "1b287bba0635b4e9ddeb",
-    "url": "/static/js/main.1b287bba.chunk.js"
+    "revision": "5ceaf2d7656618f3c54fa6355ce74d45",
+    "url": "/static/media/skill.5ceaf2d7.svg"
   },
   {
-    "revision": "2cffdafc9ae5b6b2f59015c731532298",
-    "url": "/static/media/game.2cffdafc.svg"
+    "revision": "e1f4fb9ae1c41e95c3cb",
+    "url": "/static/js/main.e1f4fb9a.chunk.js"
+  },
+  {
+    "revision": "38e624e4abd74c5900f7bb67be3a874f",
+    "url": "/static/media/game.38e624e4.svg"
   },
   {
     "revision": "803516a0d22727919e89724c924091cd",
@@ -58,6 +62,10 @@ self.__precacheManifest = [
   {
     "revision": "a21f2cf1589faeb928b1cde46aa52429",
     "url": "/static/media/anime.a21f2cf1.svg"
+  },
+  {
+    "revision": "7110077103a9afaf21745496d7c25438",
+    "url": "/static/media/tags.71100771.svg"
   },
   {
     "revision": "4d5d5f6471dbc40bce42b1ab52c2828b",
@@ -88,7 +96,7 @@ self.__precacheManifest = [
     "url": "/static/media/youku.b596a219.svg"
   },
   {
-    "revision": "b8e11f81b0cdb0fc1a1fbd2ac362d261",
+    "revision": "f17e9cf9f00ce11cc01e2aa1b9c6e556",
     "url": "/index.html"
   }
 ];
