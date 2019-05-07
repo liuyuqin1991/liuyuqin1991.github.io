@@ -2,7 +2,11 @@
 
 $c-background:#0f0f0f;
 $c-module-background:#222222;
-$c-blue:#2196f3;
+
+$c-2196f3:#2196f3;
+
+$c-888:#888;
+$c-444:#444;
 
 @mixin tag-icon($code) {
     width: 0.6rem;
@@ -42,16 +46,20 @@ $c-blue:#2196f3;
         &.user:before {
             @include title-icon("user");
         }
+
+        &.skill:before {
+            @include title-icon("skill");
+        }
     }
 
     .module-view {
-        @extend .flex-column-centerS;
         background-color: $c-module-background;
         border-radius: 10px;
         padding: 0 1rem;
 
         &.profile {
-            padding: 1rem;
+            @extend .flex-column-centerS;
+            padding: 1.5rem 0;
 
             .profile-img {
                 width: 8.5rem;
@@ -68,7 +76,7 @@ $c-blue:#2196f3;
 
             .profile-tag-ul {
                 @extend .flex-column-centerS;
-                @include font-custom("PingFang SC", 0.8rem, $c-blue);
+                @include font-custom("PingFang SC", 0.8rem, $c-primary-8);
 
                 .profile-tag-li {
                     @extend .flex-row-centerS;
@@ -97,15 +105,83 @@ $c-blue:#2196f3;
         }
 
         &.about {
-            @include font-custom("PingFang SC", 0.7rem, #FFF);
+            @extend .flex-column;
+            @include font-custom("PingFang SC", 0.7rem, $c-888);
             margin-top: 1rem;
 
-            .about-name {
-                align-self: flex-start;
+            .about-info {
+                padding: 0.2rem 0;
             }
 
             .about-introduction {
-                @include font-custom("PingFang SC", 0.7rem, $c-blue);
+                @include font-custom("PingFang SC", 0.7rem, $c-primary-8);
+                padding-bottom: 1rem;
+            }
+        }
+
+        &.skill {
+            @extend .flex-column;
+            @include font-custom("PingFang SC", 0.7rem, $c-888);
+            margin-top: 1rem;
+
+            .skill-tags-view {
+                @extend .flex-row-centerS;
+
+                .tags-icon {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    margin: 0 0.8rem 0 0.2rem;
+                    background: url("../../data/images/tags.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                .skill-tags-ul {
+                    @extend .flex-row-centerS;
+
+                    >li {
+                        background: $c-primary-3;
+                        padding: 0.1rem 0.2rem;
+                        margin: 0 0.4rem;
+                        border-radius: 5px;
+                        color: $c-primary;
+                    }
+                }
+            }
+
+            .skill-ul>li {
+
+                @extend .flex-column;
+                padding-bottom: 0.6rem;
+
+                .skill-info {
+                    @extend .flex-row-spacebetweenP-centerS;
+                    margin-top: 0.4rem;
+                }
+
+                .line {
+                    width: 10rem;
+                    height: 3px;
+                    background-color: $c-444;
+                    position: relative;
+
+                    &.active {
+                        position: absolute;
+                        background-color: $c-primary-8;
+                    }
+
+                    .circle {
+                        width: 0.6rem;
+                        height: 0.6rem;
+                        background-color: $c-444;
+                        position: absolute;
+                        top: -0.21rem;
+                        border-radius: 50%;
+
+                        &.active {
+                            background-color: $c-primary;
+                        }
+                    }
+                }
             }
         }
     }

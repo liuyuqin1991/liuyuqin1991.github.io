@@ -1,0 +1,99 @@
+{
+    "tags": [
+        "web前端",
+        "java后端"
+    ],
+    "languageSkill": [
+        {
+            "name": "javascript",
+            "level": 3,
+            "use": 8
+        },
+        {
+            "name": "java",
+            "level": 3,
+            "use": 6
+        },
+        {
+            "name": "css,sass,less",
+            "level": 3,
+            "use": 5
+        },
+        {
+            "name": "html",
+            "level": 3,
+            "use": 5
+        },
+        {
+            "name": "typescript",
+            "level": 2,
+            "use": 1
+        },
+        {
+            "name": "php",
+            "level": 2,
+            "use": 1
+        },
+        {
+            "name": "sql",
+            "level": 2,
+            "use": 6
+        }
+    ],
+    "libSkill": [
+        {
+            "name": "echarts",
+            "level": 4,
+            "use": 2
+        },
+        {
+            "name": "jquery",
+            "level": 2,
+            "use": 4
+        },
+        {
+            "name": "ant design",
+            "level": 2,
+            "use": 2
+        },
+        {
+            "name": "extjs",
+            "level": 2,
+            "use": 2
+        }
+    ],
+    "frameSkill": [
+        {
+            "name": "react",
+            "level": 3,
+            "use": 2
+        },
+        {
+            "name": "vue",
+            "level": 1,
+            "use": 1
+        },
+        {
+            "name": "struts,hibernate,spring",
+            "level": 3,
+            "use": 4
+        },
+        {
+            "name": "grails",
+            "level": 2,
+            "use": 2
+        }
+    ],
+    "otherSkill": [
+        {
+            "name": "webpack,gulp",
+            "level": 2,
+            "use": 2
+        },
+        {
+            "name": "git,svn",
+            "level": 3,
+            "use": 6
+        }
+    ]
+}
