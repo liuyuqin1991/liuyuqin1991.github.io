@@ -1,0 +1,46 @@
+{
+    "workExperience": [
+        {
+            "companyName": "京东集团",
+            "companyFullName": "京东集团（JD.COM）武汉分公司",
+            "date": "2016.6—至今",
+            "department": "新通路事业部-产品研发部",
+            "position": "前端开发工程师，java后端开发工程师",
+            "responsibility": "1. 完全负责京东集团新通路事业部慧眼外部可视化数据平台前端页面的功能开发及维护工作；2. 完全负责京东集团新通路事业部朗境内部可视化数据平台前端页面的功能开发及维护工作；3. 完全负责京东集团新通路事业部鹰眼数据后端服务项目的功能开发及维护工作；4. 负责京东掌柜宝部分H5功能页面的开发；5. 负责京东便利店部分中台管理页面的开发；6. 参与京东集团旗下一号店店铺装修前后端系统的维护工作。"
+        },
+        {
+            "companyName": "方象软件",
+            "companyFullName": "青岛方象软件技术股份有限公司",
+            "date": "2014.4—2016.5",
+            "department": "软件研发部",
+            "position": "java后端开发工程师",
+            "responsibility": "主要负责O2O微信线上平台的研发，以及ERP云系统和POS终端的接口服务，数据采集与同步的swing程序开发。"
+        },
+        {
+            "companyName": "东鲁电子",
+            "companyFullName": "烟台东鲁电子科技股份有限公司",
+            "date": "2012—2014.3",
+            "department": "软件研发部",
+            "position": "java后端开发工程师",
+            "responsibility": "主要负责O2O微信线上平台的研发，以及ERP云系统和POS终端的接口服务，数据采集与同步的swing程序开发。"
+        }
+    ],
+    "projectExperience": [
+        {
+            "code": "code",
+            "name": "爱马仕攻城狮"
+        },
+        {
+            "code": "music",
+            "name": "摇滚音乐鬼才"
+        },
+        {
+            "code": "anime",
+            "name": "二次元冒险家"
+        },
+        {
+            "code": "game",
+            "name": "暗黑硬核玩家"
+        }
+    ]
+}

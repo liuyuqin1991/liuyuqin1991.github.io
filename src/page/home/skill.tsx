@@ -1,9 +1,10 @@
 import React from 'react';
 import BaseComponent from '../../components/base-component';
 import SkillJson from '../../data/jsons/skill.json';
-
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
+
+
 
 interface SkillInfo {
     name: string
@@ -21,9 +22,9 @@ class SkillComponent extends BaseComponent {
                 let line: JSX.Element = <div className="line active" style={{ width: (item.level - 1) * 33 + "%" }}></div>;
                 let circle: Array<JSX.Element> = [0, 1, 2, 3].map((num: number) => {
                     const circleClass: any = { "circle": true, "active": num < item.level };
-                    return <div className={this.classNames(circleClass)} style={{ left: num * 33 + "%" }}></div>
+                    return <div key={"skill-circle-" + num} className={this.classNames(circleClass)} style={{ left: num * 33 + "%" }}></div>
                 });
-                return <li className={"skill-li"} key={"skill-li" + index}>
+                return <li className={"skill-li"} key={"skill-li-" + index}>
                     <div className="flex-row-spacebetweenP-centerS">
                         <div className="skill-name">{item.name + "【" + item.use + "年】"}</div>
                     </div>
@@ -47,10 +48,11 @@ class SkillComponent extends BaseComponent {
                 <div className="tags-icon"></div>
                 <ul className="skill-tags-ul">
                     {SkillJson.tags.map((item, index) => {
-                        return <li className={"skill-tags-li"} key={"skill-tags-li" + index}>{item}</li>
+                        return <li className={"skill-tags-li"} key={"skill-tags-li-" + index}>{item}</li>
                     })}
                 </ul>
             </div>
+            <div className="module-title h2">能力</div>
             <Tabs className="skill-view">
                 <TabList className="skill-tab-ul">
                     <Tab className="skill-tab">语言类</Tab>

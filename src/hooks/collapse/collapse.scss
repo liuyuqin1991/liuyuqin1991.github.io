@@ -1,0 +1,53 @@
+@import "../../assets/css/index.scss";
+
+$c-collapse-fill:#2c2c2c;
+$c-888:#888;
+
+.collapse {}
+
+.collapse-item {
+    .collapse-item-header {
+        @extend .flex-row-centerS;
+        @include font-custom("PingFang SC", 0.7rem, $c-888);
+        padding: 0.8rem 0.5rem;
+        background-color: $c-collapse-fill;
+        border-bottom: 1px solid $c-888;
+        cursor: pointer;
+
+        .collapse-item-header-arrow {
+            width: 0.7rem;
+            height: 0.7rem;
+            background: url("../../data/images/arrow-right.svg") no-repeat;
+            background-size: 100% 100%;
+            transition: transform .3s;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .collapse-item-wrap {
+        will-change: height;
+        background-color: $c-collapse-fill;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .collapse-item-content {
+        @include font-custom("PingFang SC", 0.7rem, $c-888);
+        padding: 10px 15px;
+        border-bottom: 1px solid #888;
+    }
+
+    &.is-active {
+        >.collapse-item-header {
+            @include font-custom("PingFang SC", 0.7rem, $c-primary-8, bold);
+
+            .collapse-item-header-arrow {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &:last-child {
+        margin-bottom: -1px;
+    }
+}
