@@ -1,0 +1,32 @@
+@import "../../assets/css/index.scss";
+
+$c-tabs-fill:#2c2c2c;
+$c-888:#888;
+
+.tabs {
+
+    .tabs-header {
+        @extend .flex-row-spacebetweenP-centerS;
+        position: relative;
+
+        &>li {
+            padding: 0.5rem;
+
+            &.active {
+                @include font-custom("PingFang SC", 0.7rem, $c-primary-8);
+            }
+        }
+
+        .active-line {
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            background-color: $c-primary;
+            transition: left .2s linear;
+        }
+    }
+
+    .tabs-content {
+        padding: 1rem 0;
+    }
+}

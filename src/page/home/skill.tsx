@@ -1,9 +1,7 @@
 import React from 'react';
 import BaseComponent from '../../components/base-component';
 import SkillJson from '../../data/jsons/skill.json';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import "react-tabs/style/react-tabs.css";
-
+import { Tabs, TabItem } from '../../hooks/tabs';
 
 
 interface SkillInfo {
@@ -53,26 +51,11 @@ class SkillComponent extends BaseComponent {
                 </ul>
             </div>
             <div className="module-title h2">能力</div>
-            <Tabs className="skill-view">
-                <TabList className="skill-tab-ul">
-                    <Tab className="skill-tab">语言类</Tab>
-                    <Tab className="skill-tab">框架类</Tab>
-                    <Tab className="skill-tab">组件类</Tab>
-                    <Tab className="skill-tab">其他类</Tab>
-                </TabList>
-
-                <TabPanel>
-                    {this.renderSkill(SkillJson.languageSkill)}
-                </TabPanel>
-                <TabPanel>
-                    {this.renderSkill(SkillJson.frameSkill)}
-                </TabPanel>
-                <TabPanel>
-                    {this.renderSkill(SkillJson.libSkill)}
-                </TabPanel>
-                <TabPanel>
-                    {this.renderSkill(SkillJson.otherSkill)}
-                </TabPanel>
+            <Tabs className="skill-view" activeValue="1">
+                <TabItem name="语言类" value="1">{this.renderSkill(SkillJson.languageSkill)}</TabItem>
+                <TabItem name="框架类" value="2">{this.renderSkill(SkillJson.frameSkill)}</TabItem>
+                <TabItem name="组件类" value="3">{this.renderSkill(SkillJson.libSkill)}</TabItem>
+                <TabItem name="其他类" value="4">{this.renderSkill(SkillJson.otherSkill)}</TabItem>
             </Tabs>
         </div>
     }

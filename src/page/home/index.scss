@@ -70,7 +70,7 @@ $c-444:#444;
             }
 
             .profile-name {
-                @include font-custom("PingFang SC", 1.2rem, #FFF, bold);
+                @include font-custom("PingFang SC", 1.2rem, $c-888, bold);
                 padding: 1rem 0 0.5rem;
             }
 
@@ -208,6 +208,49 @@ $c-444:#444;
 
         &.experience {
             margin-top: 1rem;
+
+            .work {
+                @extend .flex-row-centerS;
+                padding: 0.4rem 0;
+
+                .icon {
+                    width: 0.7rem;
+                    height: 0.7rem;
+                    margin: 0.15rem 0.5rem 0 0;
+                    align-self: flex-start;
+
+                    &.icon-company {
+                        background: url("../../data/images/company.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+                    &.icon-date {
+                        background: url("../../data/images/date.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+                    &.icon-department {
+                        background: url("../../data/images/department.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+
+                    &.icon-position {
+                        background: url("../../data/images/position.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+
+                    &.icon-responsibility {
+                        background: url("../../data/images/responsibility.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+                }
+            }
+
+            .text {
+                max-width: 90%;
+            }
         }
     }
 }
