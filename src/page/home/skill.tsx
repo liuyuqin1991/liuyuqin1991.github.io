@@ -25,12 +25,6 @@ class SkillComponent extends BaseComponent {
                 return <li className={"skill-li"} key={"skill-li-" + index}>
                     <div className="flex-row-spacebetweenP-centerS">
                         <div className="skill-name">{item.name + "【" + item.use + "年】"}</div>
-                    </div>
-                    <div className="skill-info">
-                        <div className="line">
-                            {line}
-                            {circle}
-                        </div>
                         <div className="skill-level">{this.skillLevelMap[item.level]}</div>
                     </div>
                 </li>

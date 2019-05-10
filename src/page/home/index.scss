@@ -166,52 +166,12 @@ $c-444:#444;
                     text-align: center;
                     border-bottom: 1px solid $c-primary-5;
 
-                    &.react-tabs__tab--selected {
-                        background-color: $c-primary-5;
-                        color: $c-primary-8;
-                        border-bottom: 1px solid transparent;
-                    }
-
                 }
-            }
-
-            .react-tabs__tab-panel {
-                padding: 1rem 0;
             }
 
             .skill-ul>li {
                 @extend .flex-column;
                 padding-bottom: 0.6rem;
-
-                .skill-info {
-                    @extend .flex-row-spacebetweenP-centerS;
-                    margin-top: 0.4rem;
-                }
-
-                .line {
-                    width: 10rem;
-                    height: 3px;
-                    background-color: $c-444;
-                    position: relative;
-
-                    &.active {
-                        position: absolute;
-                        background-color: $c-primary-8;
-                    }
-
-                    .circle {
-                        width: 0.6rem;
-                        height: 0.6rem;
-                        background-color: $c-444;
-                        position: absolute;
-                        top: -0.21rem;
-                        border-radius: 50%;
-
-                        &.active {
-                            background-color: $c-primary;
-                        }
-                    }
-                }
             }
         }
 
