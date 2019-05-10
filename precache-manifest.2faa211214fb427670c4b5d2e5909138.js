@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/game.38e624e4.svg"
   },
   {
-    "revision": "b5b51f537f940a31f4d4",
-    "url": "/static/css/main.e6851830.chunk.css"
+    "revision": "2404c711ed24eed23d49",
+    "url": "/static/css/main.1c7cef68.chunk.css"
   },
   {
     "revision": "c2c327b67981e92cc2f3",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/code.456e626a.svg"
   },
   {
-    "revision": "b5b51f537f940a31f4d4",
-    "url": "/static/js/main.b5b51f53.chunk.js"
+    "revision": "2404c711ed24eed23d49",
+    "url": "/static/js/main.2404c711.chunk.js"
   },
   {
     "revision": "803516a0d22727919e89724c924091cd",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/youku.b596a219.svg"
   },
   {
-    "revision": "04ce4cba009c392716a166b806786024",
+    "revision": "147b7ceba252897f710cd291a429fb01",
     "url": "/index.html"
   }
 ];
