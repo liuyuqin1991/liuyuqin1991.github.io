@@ -36,7 +36,7 @@ class ExperienceComponent extends BaseComponent {
 
     render() {
         return <div className="module-view experience">
-            <div className="module-title h1 user">Experience</div>
+            <div className="module-title h1 experience">Experience</div>
             <div className="module-title h2">工作经验</div>
             {this.renderWorkExperience()}
             <div className="module-title h2">项目经验</div>

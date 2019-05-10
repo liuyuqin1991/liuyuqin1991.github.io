@@ -3,15 +3,19 @@
 $c-collapse-fill:#2c2c2c;
 $c-888:#888;
 
-.collapse {}
-
 .collapse-item {
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
     .collapse-item-header {
         @extend .flex-row-centerS;
         @include font-custom("PingFang SC", 0.7rem, $c-888);
         padding: 0.8rem 0.5rem;
         background-color: $c-collapse-fill;
-        border-bottom: 1px solid $c-888;
+        border-radius: 4px;
         cursor: pointer;
 
         .collapse-item-header-arrow {
@@ -29,12 +33,12 @@ $c-888:#888;
         background-color: $c-collapse-fill;
         overflow: hidden;
         box-sizing: border-box;
+        border-radius: 4px;
     }
 
     .collapse-item-content {
         @include font-custom("PingFang SC", 0.7rem, $c-888);
         padding: 10px 15px;
-        border-bottom: 1px solid #888;
     }
 
     &.is-active {

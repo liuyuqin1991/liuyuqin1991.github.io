@@ -23,7 +23,7 @@ $c-444:#444;
     content: "";
     background: url("../../data/images/"+ $code + ".svg") no-repeat;
     background-size: 100% 100%;
-    margin-right: 0.4rem;
+    margin-right: 0.5rem;
 }
 
 .home {
@@ -48,7 +48,16 @@ $c-444:#444;
         }
 
         &.skill:before {
+            margin-top: -0.2rem;
             @include title-icon("skill");
+        }
+
+        &.experience:before {
+            @include title-icon("experience");
+        }
+
+        &.education:before {
+            @include title-icon("education");
         }
     }
 
@@ -216,7 +225,7 @@ $c-444:#444;
                 .icon {
                     width: 0.7rem;
                     height: 0.7rem;
-                    margin: 0.15rem 0.5rem 0 0;
+                    margin: 0.1rem 0.5rem 0 0;
                     align-self: flex-start;
 
                     &.icon-company {
@@ -251,6 +260,10 @@ $c-444:#444;
             .text {
                 max-width: 90%;
             }
+        }
+
+        &.education {
+            margin-top: 1rem;
         }
     }
 }

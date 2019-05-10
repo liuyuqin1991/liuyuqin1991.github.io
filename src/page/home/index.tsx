@@ -4,6 +4,7 @@ import Profile from './profile';
 import About from './about';
 import Skill from './skill';
 import Experience from './experience';
+import Education from './education';
 
 import './index.scss'
 
@@ -15,6 +16,7 @@ class HomeComponent extends BaseComponent {
             <About />
             <Skill />
             <Experience />
+            <Education />
         </div>
     }
 }
