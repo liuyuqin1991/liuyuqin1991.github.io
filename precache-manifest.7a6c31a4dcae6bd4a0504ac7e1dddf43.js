@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "803516a0d22727919e89724c924091cd",
-    "url": "/static/media/music.803516a0.svg"
+    "revision": "38e624e4abd74c5900f7bb67be3a874f",
+    "url": "/static/media/game.38e624e4.svg"
   },
   {
-    "revision": "aaf26451635a915fcdb5",
-    "url": "/static/css/main.d6955c4d.chunk.css"
+    "revision": "b5b51f537f940a31f4d4",
+    "url": "/static/css/main.e6851830.chunk.css"
   },
   {
     "revision": "c2c327b67981e92cc2f3",
@@ -52,16 +52,24 @@ self.__precacheManifest = [
     "url": "/static/media/skill.5ceaf2d7.svg"
   },
   {
+    "revision": "bd68a3d8912176b1034874ac378aecc5",
+    "url": "/static/media/experience.bd68a3d8.svg"
+  },
+  {
+    "revision": "c9483fd7080f0c9d79eccf5bd211c8f6",
+    "url": "/static/media/education.c9483fd7.svg"
+  },
+  {
     "revision": "456e626a41b50d3e36b58b57f4408b56",
     "url": "/static/media/code.456e626a.svg"
   },
   {
-    "revision": "38e624e4abd74c5900f7bb67be3a874f",
-    "url": "/static/media/game.38e624e4.svg"
+    "revision": "b5b51f537f940a31f4d4",
+    "url": "/static/js/main.b5b51f53.chunk.js"
   },
   {
-    "revision": "aaf26451635a915fcdb5",
-    "url": "/static/js/main.aaf26451.chunk.js"
+    "revision": "803516a0d22727919e89724c924091cd",
+    "url": "/static/media/music.803516a0.svg"
   },
   {
     "revision": "a21f2cf1589faeb928b1cde46aa52429",
@@ -120,7 +128,7 @@ self.__precacheManifest = [
     "url": "/static/media/youku.b596a219.svg"
   },
   {
-    "revision": "8955256f7fa2a52bae77545c20b2947c",
+    "revision": "04ce4cba009c392716a166b806786024",
     "url": "/index.html"
   }
 ];
