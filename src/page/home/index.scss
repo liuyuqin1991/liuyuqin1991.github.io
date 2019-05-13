@@ -148,7 +148,6 @@ $c-444:#444;
                     @extend .flex-row-centerS;
 
                     >li {
-                        background: $c-primary-3;
                         padding: 0.1rem 0.2rem;
                         margin: 0 0.4rem;
                         border-radius: 5px;
@@ -185,7 +184,7 @@ $c-444:#444;
                 .icon {
                     width: 0.7rem;
                     height: 0.7rem;
-                    margin: 0.1rem 0.5rem 0 0;
+                    margin: 0 0.5rem 0 0;
                     align-self: flex-start;
 
                     &.icon-company {

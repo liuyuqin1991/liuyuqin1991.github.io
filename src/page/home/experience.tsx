@@ -9,7 +9,7 @@ interface WorkExperience {
     date: string
     department: string
     position: string
-    responsibility: string
+    responsibility: Array<string>
 }
 
 class ExperienceComponent extends BaseComponent {
@@ -23,7 +23,15 @@ class ExperienceComponent extends BaseComponent {
                     <div className="work date"><div className="icon icon-date" /><div className="text">{item.date}</div></div>
                     <div className="work department"><div className="icon icon-department" /><div className="text">{item.department}</div></div>
                     <div className="work position"><div className="icon icon-position" /><div className="text">{item.position}</div></div>
-                    <div className="work responsibility"><div className="icon icon-responsibility" /><div className="text">{item.responsibility}</div></div>
+                    <div className="work responsibility"><div className="icon icon-responsibility" /><div className="text">
+                        {
+                            item.responsibility.map((text: string, index: number) => {
+                                return (
+                                    <div style={{ marginTop: index === 0 ? "0" : "10px" }}>{text}</div>
+                                )
+                            })
+                        }
+                    </div></div>
                 </CollapseItem>
             )
         });
