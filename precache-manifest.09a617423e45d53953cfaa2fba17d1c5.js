@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "a21f2cf1589faeb928b1cde46aa52429",
-    "url": "/static/media/anime.a21f2cf1.svg"
+    "revision": "c9483fd7080f0c9d79eccf5bd211c8f6",
+    "url": "/static/media/education.c9483fd7.svg"
   },
   {
-    "revision": "34ef3e05d54f0af5c161",
-    "url": "/static/css/main.771070d9.chunk.css"
+    "revision": "54a14214c3536122196f",
+    "url": "/static/css/main.ce20e0a4.chunk.css"
   },
   {
-    "revision": "0cf4babe26240f3bb166",
-    "url": "/static/js/1.0cf4babe.chunk.js"
+    "revision": "db795a3ac06444a22e46",
+    "url": "/static/js/1.db795a3a.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "d66fa62dabed66f2226a1b2d17da0579",
-    "url": "/static/media/showg.d66fa62d.ttf"
-  },
-  {
     "revision": "1d15ae0b71ed4efdbfeb6717a866d381",
     "url": "/static/media/custom-black.1d15ae0b.ttf"
+  },
+  {
+    "revision": "d66fa62dabed66f2226a1b2d17da0579",
+    "url": "/static/media/showg.d66fa62d.ttf"
   },
   {
     "revision": "8cbfb06a99cf13628e0e9fbda78e552e",
@@ -29,11 +29,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "4873d18c844413eb972cb874b2d62f66",
-    "url": "/static/media/code.4873d18c.svg"
+    "url": "/static/media/code-entry.4873d18c.svg"
   },
   {
     "revision": "7f717f7128efe556dc018f210c2813d3",
-    "url": "/static/media/music.7f717f71.svg"
+    "url": "/static/media/music-entry.7f717f71.svg"
   },
   {
     "revision": "40ba31e2271e6c361b786236ce09186f",
@@ -42,6 +42,26 @@ self.__precacheManifest = [
   {
     "revision": "bccbd4bb105a543fcd43700a4aa7848a",
     "url": "/static/media/arrow-right.bccbd4bb.svg"
+  },
+  {
+    "revision": "7903a099c7407412f34d33a7cabc45ac",
+    "url": "/static/media/menu-user.7903a099.svg"
+  },
+  {
+    "revision": "7b0898de5ec7b0d599cdd21a5cbc7700",
+    "url": "/static/media/wechat.7b0898de.svg"
+  },
+  {
+    "revision": "3f01155c681ca2c723c33435020a7646",
+    "url": "/static/media/github.3f01155c.svg"
+  },
+  {
+    "revision": "cc0cf8dce169830cfb80d3237fb8f8e2",
+    "url": "/static/media/csdn.cc0cf8dc.svg"
+  },
+  {
+    "revision": "b596a2195fd4bb2c29a5bee1e64e14f7",
+    "url": "/static/media/youku.b596a219.svg"
   },
   {
     "revision": "6d8357235e31d6db1966837c468e9a1e",
@@ -56,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/experience.bd68a3d8.svg"
   },
   {
-    "revision": "c9483fd7080f0c9d79eccf5bd211c8f6",
-    "url": "/static/media/education.c9483fd7.svg"
+    "revision": "54a14214c3536122196f",
+    "url": "/static/js/main.54a14214.chunk.js"
   },
   {
     "revision": "456e626a41b50d3e36b58b57f4408b56",
@@ -72,8 +92,8 @@ self.__precacheManifest = [
     "url": "/static/media/music.803516a0.svg"
   },
   {
-    "revision": "34ef3e05d54f0af5c161",
-    "url": "/static/js/main.34ef3e05.chunk.js"
+    "revision": "a21f2cf1589faeb928b1cde46aa52429",
+    "url": "/static/media/anime.a21f2cf1.svg"
   },
   {
     "revision": "7110077103a9afaf21745496d7c25438",
@@ -100,16 +120,28 @@ self.__precacheManifest = [
     "url": "/static/media/responsibility.73dcc908.svg"
   },
   {
-    "revision": "f9089f1b7d157a2e21cb67bc726987b6",
-    "url": "/static/media/technology.f9089f1b.svg"
-  },
-  {
     "revision": "c0b1d6ff9cd7ebcc3364f0cc05b2a01f",
     "url": "/static/media/description.c0b1d6ff.svg"
   },
   {
+    "revision": "f9089f1b7d157a2e21cb67bc726987b6",
+    "url": "/static/media/technology.f9089f1b.svg"
+  },
+  {
     "revision": "96b2adf2c9e4a01f8300ab04bcf1c4ca",
     "url": "/static/media/web.96b2adf2.svg"
+  },
+  {
+    "revision": "40a9fc8e0284bdbde839fb082a4bab22",
+    "url": "/static/media/school.40a9fc8e.svg"
+  },
+  {
+    "revision": "c3966f5377848a0740932732bd3036c2",
+    "url": "/static/media/major.c3966f53.svg"
+  },
+  {
+    "revision": "1363a2f1c4598f66f5b314497e259c4e",
+    "url": "/static/media/degree.1363a2f1.svg"
   },
   {
     "revision": "4d5d5f6471dbc40bce42b1ab52c2828b",
@@ -120,27 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/homepage.e80b9ee9.svg"
   },
   {
-    "revision": "336e09e8ff50e5329bb99936379c3c50",
-    "url": "/static/media/qq.336e09e8.svg"
-  },
-  {
-    "revision": "7b0898de5ec7b0d599cdd21a5cbc7700",
-    "url": "/static/media/wechat.7b0898de.svg"
-  },
-  {
-    "revision": "3f01155c681ca2c723c33435020a7646",
-    "url": "/static/media/github.3f01155c.svg"
-  },
-  {
-    "revision": "cc0cf8dce169830cfb80d3237fb8f8e2",
-    "url": "/static/media/csdn.cc0cf8dc.svg"
-  },
-  {
-    "revision": "b596a2195fd4bb2c29a5bee1e64e14f7",
-    "url": "/static/media/youku.b596a219.svg"
-  },
-  {
-    "revision": "b9294f2f6dee2707bb546b0fe197b2b4",
+    "revision": "d8754363409888f7a6f8be4f03fc37a6",
     "url": "/index.html"
   }
 ];
