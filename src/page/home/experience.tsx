@@ -12,18 +12,31 @@ interface WorkExperience {
     responsibility: Array<string>
 }
 
+interface ProjectExperience {
+    name: string
+    company: string
+    date: string
+    description: string
+    responsibility: Array<string>
+    technology: string
+    web?: Array<{
+        name: string
+        url: string
+    }>
+}
+
 class ExperienceComponent extends BaseComponent {
 
     renderWorkExperience() {
-        let worksDom = ExperienceJson.workExperience.map((item: WorkExperience, index: number) => {
+        let workDom = ExperienceJson.workExperience.map((item: WorkExperience, index: number) => {
             let title = item.companyName + "【" + item.date + "】";
             return (
                 <CollapseItem title={title} name={index + ""} key={"work-experience-" + index}>
-                    <div className="work company"><div className="icon icon-company" /><div className="text">{item.companyFullName}</div></div>
-                    <div className="work date"><div className="icon icon-date" /><div className="text">{item.date}</div></div>
-                    <div className="work department"><div className="icon icon-department" /><div className="text">{item.department}</div></div>
-                    <div className="work position"><div className="icon icon-position" /><div className="text">{item.position}</div></div>
-                    <div className="work responsibility"><div className="icon icon-responsibility" /><div className="text">
+                    <div className="experience-item company"><div className="icon icon-company" /><div className="text">{item.companyFullName}</div></div>
+                    <div className="experience-item date"><div className="icon icon-date" /><div className="text">{item.date}</div></div>
+                    <div className="experience-item department"><div className="icon icon-department" /><div className="text">{item.department}</div></div>
+                    <div className="experience-item position"><div className="icon icon-position" /><div className="text">{item.position}</div></div>
+                    <div className="experience-item responsibility"><div className="icon icon-responsibility" /><div className="text">
                         {
                             item.responsibility.map((text: string, index: number) => {
                                 return (
@@ -37,7 +50,50 @@ class ExperienceComponent extends BaseComponent {
         });
         return (
             <Collapse>
-                {worksDom}
+                {workDom}
+            </Collapse>
+        )
+    }
+
+    renderProjectExperience() {
+        let projectDom = ExperienceJson.projectExperience.map((item: ProjectExperience, index: number) => {
+            return (
+                <CollapseItem title={item.name} name={index + ""} key={"project-experience-" + index}>
+                    <div className="experience-item company"><div className="icon icon-company" /><div className="text">{item.company}</div></div>
+                    <div className="experience-item date"><div className="icon icon-date" /><div className="text">{item.date}</div></div>
+                    <div className="experience-item description"><div className="icon icon-description" /><div className="text">{item.description}</div></div>
+                    <div className="experience-item technology"><div className="icon icon-technology" /><div className="text">{item.technology}</div></div>
+                    <div className="experience-item responsibility"><div className="icon icon-responsibility" />
+                        <div className="text">
+                            {
+                                item.responsibility.map((text: string, index: number) => {
+                                    return (
+                                        <div style={{ marginTop: index === 0 ? "0" : "10px" }}>{text}</div>
+                                    )
+                                })
+                            }
+                        </div>
+                    </div>
+                    {
+                        item.web &&
+                        <div className="experience web"><div className="icon icon-web" />
+                            <div className="text">
+                                {
+                                    item.web.map((item: any, index: number) => {
+                                        return (
+                                            <a href={item.url} style={{ marginTop: index === 0 ? "0" : "10px" }}>{item.name}</a>
+                                        )
+                                    })
+                                }
+                            </div>
+                        </div>
+                    }
+                </CollapseItem>
+            )
+        });
+        return (
+            <Collapse>
+                {projectDom}
             </Collapse>
         )
     }
@@ -48,6 +104,7 @@ class ExperienceComponent extends BaseComponent {
             <div className="module-title h2">工作经验</div>
             {this.renderWorkExperience()}
             <div className="module-title h2">项目经验</div>
+            {this.renderProjectExperience()}
         </div>
     }
 }

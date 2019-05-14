@@ -12,7 +12,7 @@ $c-444:#444;
     width: 0.6rem;
     height: 0.6rem;
     content: "";
-    background: url("../../data/images/"+ $code + ".svg") no-repeat;
+    background: url("../../assets/image/"+ $code + ".svg") no-repeat;
     background-size: 100% 100%;
     margin: 0.4rem;
 }
@@ -21,7 +21,7 @@ $c-444:#444;
     width: 1.2rem;
     height: 1.2rem;
     content: "";
-    background: url("../../data/images/"+ $code + ".svg") no-repeat;
+    background: url("../../assets/image/"+ $code + ".svg") no-repeat;
     background-size: 100% 100%;
     margin-right: 0.5rem;
 }
@@ -74,7 +74,7 @@ $c-444:#444;
                 width: 8.5rem;
                 height: 8.5rem;
                 border-radius: 50%;
-                background: url("../../data/images/profile.jpg") no-repeat;
+                background: url("../../assets/image/profile.jpg") no-repeat;
                 background-size: 100% 100%;
             }
 
@@ -85,7 +85,7 @@ $c-444:#444;
 
             .profile-tag-ul {
                 @extend .flex-column-centerS;
-                @include font-custom("PingFang SC", 0.8rem, $c-primary-8);
+                @include font-custom("PingFang SC", 0.7rem, $c-primary-8);
 
                 .profile-tag-li {
                     @extend .flex-row-centerS;
@@ -140,7 +140,7 @@ $c-444:#444;
                     width: 0.8rem;
                     height: 0.8rem;
                     margin: 0 0.8rem 0 0.2rem;
-                    background: url("../../data/images/tags.svg") no-repeat;
+                    background: url("../../assets/image/tags.svg") no-repeat;
                     background-size: 100% 100%;
                 }
 
@@ -171,58 +171,99 @@ $c-444:#444;
             .skill-ul>li {
                 @extend .flex-column;
                 padding-bottom: 0.6rem;
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
             }
         }
 
         &.experience {
             margin-top: 1rem;
+            padding-bottom: 1rem;
 
-            .work {
+            .experience-item {
                 @extend .flex-row-centerS;
-                padding: 0.4rem 0;
-
-                .icon {
-                    width: 0.7rem;
-                    height: 0.7rem;
-                    margin: 0 0.5rem 0 0;
-                    align-self: flex-start;
-
-                    &.icon-company {
-                        background: url("../../data/images/company.svg") no-repeat;
-                        background-size: 100% 100%;
-                    }
-
-                    &.icon-date {
-                        background: url("../../data/images/date.svg") no-repeat;
-                        background-size: 100% 100%;
-                    }
-
-                    &.icon-department {
-                        background: url("../../data/images/department.svg") no-repeat;
-                        background-size: 100% 100%;
-                    }
-
-
-                    &.icon-position {
-                        background: url("../../data/images/position.svg") no-repeat;
-                        background-size: 100% 100%;
-                    }
-
-
-                    &.icon-responsibility {
-                        background: url("../../data/images/responsibility.svg") no-repeat;
-                        background-size: 100% 100%;
-                    }
-                }
+                padding-bottom: 0.6rem;
             }
 
             .text {
                 max-width: 90%;
+                word-break: break-word;
             }
         }
 
         &.education {
             margin-top: 1rem;
+            padding-bottom: 1rem;
+
+            .education-item {
+                @extend .flex-row-centerS;
+                padding-bottom: 0.6rem;
+            }
+        }
+
+        .icon {
+            width: 0.7rem;
+            height: 0.7rem;
+            margin: 0 0.5rem 0 0;
+            align-self: flex-start;
+
+            &.icon-company {
+                background: url("../../assets/image/company.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-date {
+                background: url("../../assets/image/date.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-department {
+                background: url("../../assets/image/department.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+
+            &.icon-position {
+                background: url("../../assets/image/position.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-responsibility {
+                background: url("../../assets/image/responsibility.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-description {
+                background: url("../../assets/image/description.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-technology {
+                background: url("../../assets/image/technology.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-web {
+                background: url("../../assets/image/web.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-school {
+                background: url("../../assets/image/school.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-major {
+                background: url("../../assets/image/major.svg") no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &.icon-degree {
+                background: url("../../assets/image/degree.svg") no-repeat;
+                background-size: 100% 100%;
+            }
         }
     }
 }

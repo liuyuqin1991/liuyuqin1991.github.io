@@ -21,7 +21,7 @@ $c-888:#888;
         .collapse-item-header-arrow {
             width: 0.7rem;
             height: 0.7rem;
-            background: url("../../data/images/arrow-right.svg") no-repeat;
+            background: url("../../assets/image/arrow-right.svg") no-repeat;
             background-size: 100% 100%;
             transition: transform .3s;
             margin-right: 0.5rem;
@@ -58,6 +58,6 @@ $c-888:#888;
     }
 
     &:last-child {
-        margin-bottom: -1px;
+        margin-bottom: 0;
     }
 }

@@ -6,18 +6,23 @@ import Skill from './skill';
 import Experience from './experience';
 import Education from './education';
 
+import Footer from '../../components/footer/footer';
+
 import './index.scss'
 
 class HomeComponent extends BaseComponent {
 
     render() {
-        return <div className="home">
-            <Profile />
-            <About />
-            <Skill />
-            <Experience />
-            <Education />
-        </div>
+        return <>
+            <div className="home">
+                <Profile />
+                <About />
+                <Skill />
+                <Experience />
+                <Education />
+            </div>
+            <Footer />
+        </>
     }
 }
 
