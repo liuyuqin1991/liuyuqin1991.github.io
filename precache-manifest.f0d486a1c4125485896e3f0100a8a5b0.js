@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "38e624e4abd74c5900f7bb67be3a874f",
-    "url": "/static/media/game.38e624e4.svg"
+    "revision": "a21f2cf1589faeb928b1cde46aa52429",
+    "url": "/static/media/anime.a21f2cf1.svg"
   },
   {
-    "revision": "30ddceb29c187c7099b0",
-    "url": "/static/css/main.3aeb9c56.chunk.css"
+    "revision": "34ef3e05d54f0af5c161",
+    "url": "/static/css/main.771070d9.chunk.css"
   },
   {
-    "revision": "c2c327b67981e92cc2f3",
-    "url": "/static/js/1.c2c327b6.chunk.js"
+    "revision": "0cf4babe26240f3bb166",
+    "url": "/static/js/1.0cf4babe.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "1d15ae0b71ed4efdbfeb6717a866d381",
-    "url": "/static/media/custom-black.1d15ae0b.ttf"
-  },
-  {
     "revision": "d66fa62dabed66f2226a1b2d17da0579",
     "url": "/static/media/showg.d66fa62d.ttf"
+  },
+  {
+    "revision": "1d15ae0b71ed4efdbfeb6717a866d381",
+    "url": "/static/media/custom-black.1d15ae0b.ttf"
   },
   {
     "revision": "8cbfb06a99cf13628e0e9fbda78e552e",
@@ -64,16 +64,16 @@ self.__precacheManifest = [
     "url": "/static/media/code.456e626a.svg"
   },
   {
-    "revision": "30ddceb29c187c7099b0",
-    "url": "/static/js/main.30ddceb2.chunk.js"
+    "revision": "38e624e4abd74c5900f7bb67be3a874f",
+    "url": "/static/media/game.38e624e4.svg"
   },
   {
     "revision": "803516a0d22727919e89724c924091cd",
     "url": "/static/media/music.803516a0.svg"
   },
   {
-    "revision": "a21f2cf1589faeb928b1cde46aa52429",
-    "url": "/static/media/anime.a21f2cf1.svg"
+    "revision": "34ef3e05d54f0af5c161",
+    "url": "/static/js/main.34ef3e05.chunk.js"
   },
   {
     "revision": "7110077103a9afaf21745496d7c25438",
@@ -98,6 +98,18 @@ self.__precacheManifest = [
   {
     "revision": "73dcc9080407cce067b3e745fdc11215",
     "url": "/static/media/responsibility.73dcc908.svg"
+  },
+  {
+    "revision": "f9089f1b7d157a2e21cb67bc726987b6",
+    "url": "/static/media/technology.f9089f1b.svg"
+  },
+  {
+    "revision": "c0b1d6ff9cd7ebcc3364f0cc05b2a01f",
+    "url": "/static/media/description.c0b1d6ff.svg"
+  },
+  {
+    "revision": "96b2adf2c9e4a01f8300ab04bcf1c4ca",
+    "url": "/static/media/web.96b2adf2.svg"
   },
   {
     "revision": "4d5d5f6471dbc40bce42b1ab52c2828b",
@@ -128,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/youku.b596a219.svg"
   },
   {
-    "revision": "23712f43ca7e04dc9f22dc563a64f136",
+    "revision": "b9294f2f6dee2707bb546b0fe197b2b4",
     "url": "/index.html"
   }
 ];
