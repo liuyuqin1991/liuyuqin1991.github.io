@@ -1,4 +1,18 @@
 {
+  "tagsList": [
+    "全部",
+    "javascript",
+    "java",
+    "react",
+    "echarts",
+    "jquery",
+    "handlebars",
+    "gulp",
+    "地图",
+    "脚本",
+    "组件库",
+    "协作"
+  ],
   "blogList": [
     {
       "date": "2017-11-09",
@@ -12,7 +26,6 @@
       "date": "2019-01-21",
       "title": "玩转exchange（查找邮件，修改邮件，发送邮件）",
       "tag": [
-        "技术",
         "java",
         "脚本"
       ],
@@ -239,7 +252,7 @@
       "date": "2017-08-28",
       "title": "Axure 按钮多事件触发",
       "tag": [
-        "协作工具"
+        "协作"
       ],
       "link": "https://blog.csdn.net/liuyuqin1991/article/details/77649361"
     },

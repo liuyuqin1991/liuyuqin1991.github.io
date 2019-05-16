@@ -1,10 +1,26 @@
+//主调系列
 $c-primary:#FFD306; //rgb(255,211,6)
 $c-primary-8:rgba(255, 211, 6, 0.8);
 $c-primary-5:rgba(255, 211, 6, 0.5);
 $c-primary-3:rgba(255, 211, 6, 0.3);
-$c-white:#FFF;
+
+//模块图标辅助系
+$c-2196f3:#2196f3;
+
+//白色系列
 $c-white-8:rgba(255, 255, 255, 0.8);
 $c-white-5:rgba(255, 255, 255, 0.5);
 $c-white-3:rgba(255, 255, 255, 0.3);
-//黑背景色
-$c-black-bg:#272727
+
+//背景色
+$c-page-background:#0f0f0f;
+$c-module-background:#222222;
+
+//灰色系
+$c-444:#444;
+$c-888:#888;
+$c-999:#999;
+
+//纯黑白
+$c-white:#FFF;
+$c-blank:#000;

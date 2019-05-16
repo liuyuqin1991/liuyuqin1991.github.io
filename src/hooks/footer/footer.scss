@@ -1,0 +1,104 @@
+@import "../../assets/css/index.scss";
+
+.footer {
+    @extend .flex-row-centerP-centerS;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    bottom: 0;
+
+    @at-root .menu {
+        width: 100%;
+        height: 100%;
+        background-color: $c-page-background;
+        @extend .flex-row-spacearoundP-centerS;
+
+        li {
+            @extend .flex-column-spacearoundP-centerS;
+            cursor: pointer;
+
+            .icon {
+                width: 28px;
+                height: 28px;
+
+                &.about {
+                    background: url("../../assets/image/footer/user.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &.blog {
+                    background: url("../../assets/image/footer/blog.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &.work {
+                    background: url("../../assets/image/footer/github.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &.music {
+                    background: url("../../assets/image/footer/csdn.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &.contact {
+                    background: url("../../assets/image/footer/youku.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+
+            .label {
+                @extend .flex-row-centerP-centerS;
+                @include font-custom("PingFang SC",
+                0.6rem,
+                $c-999,
+                normal,
+                4px);
+                margin-top: 0.2rem;
+            }
+
+            &.active {
+
+                .icon {
+                    width: 28px;
+                    height: 28px;
+
+                    &.about {
+                        background: url("../../assets/image/footer/user-active.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+                    &.blog {
+                        background: url("../../assets/image/footer/blog-active.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+                    &.work {
+                        background: url("../../assets/image/footer/github.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+                    &.music {
+                        background: url("../../assets/image/footer/csdn.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+                    &.contact {
+                        background: url("../../assets/image/footer/youku.svg") no-repeat;
+                        background-size: 100% 100%;
+                    }
+                }
+
+                .label {
+                    @extend .flex-row-centerP-centerS;
+                    @include font-custom("PingFang SC",
+                    0.6rem,
+                    $c-primary,
+                    normal,
+                    4px);
+                    margin-top: 0.2rem;
+                }
+            }
+        }
+    }
+}

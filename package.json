@@ -10,7 +10,6 @@
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^4.3.1",
     "classnames": "^2.2.6",
-    "echarts": "^4.2.0-rc.2",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "react": "^16.8.6",

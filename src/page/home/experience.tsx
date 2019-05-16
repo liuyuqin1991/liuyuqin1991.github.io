@@ -27,7 +27,7 @@ interface ProjectExperience {
 
 class ExperienceComponent extends BaseComponent {
 
-    renderWorkExperience() {
+    renderWorkExperience(): JSX.Element {
         let workDom = ExperienceJson.workExperience.map((item: WorkExperience, index: number) => {
             let title = item.companyName + "【" + item.date + "】";
             return (
@@ -40,7 +40,7 @@ class ExperienceComponent extends BaseComponent {
                         {
                             item.responsibility.map((text: string, index: number) => {
                                 return (
-                                    <div style={{ marginTop: index === 0 ? "0" : "10px" }}>{text}</div>
+                                    <div key={"work-experience-responsibility-" + index} style={{ marginTop: index === 0 ? "0" : "10px" }}>{text}</div>
                                 )
                             })
                         }
@@ -55,7 +55,7 @@ class ExperienceComponent extends BaseComponent {
         )
     }
 
-    renderProjectExperience() {
+    renderProjectExperience(): JSX.Element {
         let projectDom = ExperienceJson.projectExperience.map((item: ProjectExperience, index: number) => {
             return (
                 <CollapseItem title={item.name} name={index + ""} key={"project-experience-" + index}>
@@ -68,7 +68,7 @@ class ExperienceComponent extends BaseComponent {
                             {
                                 item.responsibility.map((text: string, index: number) => {
                                     return (
-                                        <div style={{ marginTop: index === 0 ? "0" : "10px" }}>{text}</div>
+                                        <div key={"project-experience-responsibility-" + index} style={{ marginTop: index === 0 ? "0" : "10px" }}>{text}</div>
                                     )
                                 })
                             }
@@ -76,12 +76,12 @@ class ExperienceComponent extends BaseComponent {
                     </div>
                     {
                         item.web &&
-                        <div className="experience web"><div className="icon icon-web" />
+                        <div className="experience-item web"><div className="icon icon-web" />
                             <div className="text">
                                 {
                                     item.web.map((item: any, index: number) => {
                                         return (
-                                            <a href={item.url} style={{ marginTop: index === 0 ? "0" : "10px" }}>{item.name}</a>
+                                            <a key={"project-experience-web-" + index} href={item.url} style={{ marginTop: index === 0 ? "0" : "10px" }}>{item.name}<br></br></a>
                                         )
                                     })
                                 }

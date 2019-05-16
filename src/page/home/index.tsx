@@ -6,7 +6,7 @@ import Skill from './skill';
 import Experience from './experience';
 import Education from './education';
 
-import Footer from '../../components/footer/footer';
+import Footer from '../../hooks/footer/footer';
 
 import './index.scss'
 
@@ -21,7 +21,7 @@ class HomeComponent extends BaseComponent {
                 <Experience />
                 <Education />
             </div>
-            <Footer />
+            <Footer activeMenu="about" />
         </>
     }
 }

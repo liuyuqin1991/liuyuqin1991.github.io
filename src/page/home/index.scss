@@ -1,18 +1,10 @@
 @import "../../assets/css/index.scss";
 
-$c-background:#0f0f0f;
-$c-module-background:#222222;
-
-$c-2196f3:#2196f3;
-
-$c-888:#888;
-$c-444:#444;
-
 @mixin tag-icon($code) {
     width: 0.6rem;
     height: 0.6rem;
     content: "";
-    background: url("../../assets/image/"+ $code + ".svg") no-repeat;
+    background: url("../../assets/image/home/"+ $code + ".svg") no-repeat;
     background-size: 100% 100%;
     margin: 0.4rem;
 }
@@ -21,14 +13,15 @@ $c-444:#444;
     width: 1.2rem;
     height: 1.2rem;
     content: "";
-    background: url("../../assets/image/"+ $code + ".svg") no-repeat;
+    background: url("../../assets/image/home/"+ $code + ".svg") no-repeat;
     background-size: 100% 100%;
     margin-right: 0.5rem;
 }
 
 .home {
-    background-color: $c-background;
-    padding: 1.3rem;
+    background-color: $c-page-background;
+    padding: 1rem;
+    margin-bottom: 2rem;
 
     .module-title {
         @extend .flex-row-centerS;
@@ -74,7 +67,7 @@ $c-444:#444;
                 width: 8.5rem;
                 height: 8.5rem;
                 border-radius: 50%;
-                background: url("../../assets/image/profile.jpg") no-repeat;
+                background: url("../../assets/image/home/profile.jpg") no-repeat;
                 background-size: 100% 100%;
             }
 
@@ -140,7 +133,7 @@ $c-444:#444;
                     width: 0.8rem;
                     height: 0.8rem;
                     margin: 0 0.8rem 0 0.2rem;
-                    background: url("../../assets/image/tags.svg") no-repeat;
+                    background: url("../../assets/image/home/tags.svg") no-repeat;
                     background-size: 100% 100%;
                 }
 
@@ -151,7 +144,7 @@ $c-444:#444;
                         padding: 0.1rem 0.2rem;
                         margin: 0 0.4rem;
                         border-radius: 5px;
-                        color: $c-primary;
+                        color: $c-primary-8;
                     }
                 }
             }
@@ -210,58 +203,58 @@ $c-444:#444;
             align-self: flex-start;
 
             &.icon-company {
-                background: url("../../assets/image/company.svg") no-repeat;
+                background: url("../../assets/image/home/company.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-date {
-                background: url("../../assets/image/date.svg") no-repeat;
+                background: url("../../assets/image/home/date.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-department {
-                background: url("../../assets/image/department.svg") no-repeat;
+                background: url("../../assets/image/home/department.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
 
             &.icon-position {
-                background: url("../../assets/image/position.svg") no-repeat;
+                background: url("../../assets/image/home/position.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-responsibility {
-                background: url("../../assets/image/responsibility.svg") no-repeat;
+                background: url("../../assets/image/home/responsibility.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-description {
-                background: url("../../assets/image/description.svg") no-repeat;
+                background: url("../../assets/image/home/description.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-technology {
-                background: url("../../assets/image/technology.svg") no-repeat;
+                background: url("../../assets/image/home/technology.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-web {
-                background: url("../../assets/image/web.svg") no-repeat;
+                background: url("../../assets/image/home/web.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-school {
-                background: url("../../assets/image/school.svg") no-repeat;
+                background: url("../../assets/image/home/school.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-major {
-                background: url("../../assets/image/major.svg") no-repeat;
+                background: url("../../assets/image/home/major.svg") no-repeat;
                 background-size: 100% 100%;
             }
 
             &.icon-degree {
-                background: url("../../assets/image/degree.svg") no-repeat;
+                background: url("../../assets/image/home/degree.svg") no-repeat;
                 background-size: 100% 100%;
             }
         }
