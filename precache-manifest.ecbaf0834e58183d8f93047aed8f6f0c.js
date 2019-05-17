@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/user.6d835723.svg"
   },
   {
-    "revision": "7aa294f883b4d02835ca",
-    "url": "/static/css/main.0d404565.chunk.css"
+    "revision": "dc2bb6598ee0c9ecbd97",
+    "url": "/static/css/main.b4c5e081.chunk.css"
   },
   {
     "revision": "9fe9798fb50ef297596a",
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "/static/media/arrow-right.bccbd4bb.svg"
   },
   {
+    "revision": "cf4145d184b3985a737ae23966467a7c",
+    "url": "/static/media/life.cf4145d1.svg"
+  },
+  {
     "revision": "8fe46fee3bdf7ac96e8fde14ae3d8781",
     "url": "/static/media/blog.8fe46fee.svg"
   },
@@ -52,24 +56,16 @@ self.__precacheManifest = [
     "url": "/static/media/user.1cb15b8a.svg"
   },
   {
-    "revision": "cf4145d184b3985a737ae23966467a7c",
-    "url": "/static/media/life.cf4145d1.svg"
-  },
-  {
     "revision": "05ce66c2b455adc4fceae978761b3e08",
     "url": "/static/media/music.05ce66c2.svg"
-  },
-  {
-    "revision": "6fc228ca97e6fb852c75635a2e0e4a4f",
-    "url": "/static/media/contact.6fc228ca.svg"
   },
   {
     "revision": "825156dce4f3ba3b6b0c3f8516866d41",
     "url": "/static/media/user-active.825156dc.svg"
   },
   {
-    "revision": "f0dae82a2e465b55f9e63cc8a221de12",
-    "url": "/static/media/music-active.f0dae82a.svg"
+    "revision": "6fc228ca97e6fb852c75635a2e0e4a4f",
+    "url": "/static/media/contact.6fc228ca.svg"
   },
   {
     "revision": "6a88ed4c9c3ae633fa0f84609d6edeb4",
@@ -80,12 +76,16 @@ self.__precacheManifest = [
     "url": "/static/media/life-active.263d7cad.svg"
   },
   {
+    "revision": "f0dae82a2e465b55f9e63cc8a221de12",
+    "url": "/static/media/music-active.f0dae82a.svg"
+  },
+  {
     "revision": "bfe6e7e8fd26db39b0d8030805d89d21",
     "url": "/static/media/contact-active.bfe6e7e8.svg"
   },
   {
-    "revision": "7aa294f883b4d02835ca",
-    "url": "/static/js/main.7aa294f8.chunk.js"
+    "revision": "dc2bb6598ee0c9ecbd97",
+    "url": "/static/js/main.dc2bb659.chunk.js"
   },
   {
     "revision": "5ceaf2d7656618f3c54fa6355ce74d45",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/static/media/profile.4d5d5f64.jpg"
   },
   {
-    "revision": "a748c0a86302d83cec97c864fa2a2228",
+    "revision": "25f7248add666a6617931ccac6b24850",
     "url": "/index.html"
   }
 ];
