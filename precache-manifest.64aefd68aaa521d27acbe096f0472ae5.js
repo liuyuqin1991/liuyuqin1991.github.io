@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bd68a3d8912176b1034874ac378aecc5",
-    "url": "/static/media/experience.bd68a3d8.svg"
+    "revision": "6d8357235e31d6db1966837c468e9a1e",
+    "url": "/static/media/user.6d835723.svg"
   },
   {
-    "revision": "da8cfb9149ff105f891a",
-    "url": "/static/css/main.f211f140.chunk.css"
+    "revision": "7aa294f883b4d02835ca",
+    "url": "/static/css/main.0d404565.chunk.css"
   },
   {
     "revision": "9fe9798fb50ef297596a",
@@ -44,44 +44,56 @@ self.__precacheManifest = [
     "url": "/static/media/arrow-right.bccbd4bb.svg"
   },
   {
-    "revision": "3e03fc8e6fa77ca9a8e36df0b46b202d",
-    "url": "/static/media/user.3e03fc8e.svg"
+    "revision": "8fe46fee3bdf7ac96e8fde14ae3d8781",
+    "url": "/static/media/blog.8fe46fee.svg"
   },
   {
-    "revision": "5a2f63732ec681a79f1373dbccbb0d1e",
-    "url": "/static/media/blog.5a2f6373.svg"
+    "revision": "1cb15b8a4dc1e42e4675537de3f81f14",
+    "url": "/static/media/user.1cb15b8a.svg"
   },
   {
-    "revision": "3f01155c681ca2c723c33435020a7646",
-    "url": "/static/media/github.3f01155c.svg"
+    "revision": "cf4145d184b3985a737ae23966467a7c",
+    "url": "/static/media/life.cf4145d1.svg"
   },
   {
-    "revision": "cc0cf8dce169830cfb80d3237fb8f8e2",
-    "url": "/static/media/csdn.cc0cf8dc.svg"
+    "revision": "05ce66c2b455adc4fceae978761b3e08",
+    "url": "/static/media/music.05ce66c2.svg"
   },
   {
-    "revision": "7903a099c7407412f34d33a7cabc45ac",
-    "url": "/static/media/user-active.7903a099.svg"
+    "revision": "6fc228ca97e6fb852c75635a2e0e4a4f",
+    "url": "/static/media/contact.6fc228ca.svg"
   },
   {
-    "revision": "b596a2195fd4bb2c29a5bee1e64e14f7",
-    "url": "/static/media/youku.b596a219.svg"
+    "revision": "825156dce4f3ba3b6b0c3f8516866d41",
+    "url": "/static/media/user-active.825156dc.svg"
   },
   {
-    "revision": "124391b086b90c8d2a4c037118711c36",
-    "url": "/static/media/blog-active.124391b0.svg"
+    "revision": "f0dae82a2e465b55f9e63cc8a221de12",
+    "url": "/static/media/music-active.f0dae82a.svg"
   },
   {
-    "revision": "6d8357235e31d6db1966837c468e9a1e",
-    "url": "/static/media/user.6d835723.svg"
+    "revision": "6a88ed4c9c3ae633fa0f84609d6edeb4",
+    "url": "/static/media/blog-active.6a88ed4c.svg"
+  },
+  {
+    "revision": "263d7cadc65e93c36db1b7823b9521dd",
+    "url": "/static/media/life-active.263d7cad.svg"
+  },
+  {
+    "revision": "bfe6e7e8fd26db39b0d8030805d89d21",
+    "url": "/static/media/contact-active.bfe6e7e8.svg"
+  },
+  {
+    "revision": "7aa294f883b4d02835ca",
+    "url": "/static/js/main.7aa294f8.chunk.js"
   },
   {
     "revision": "5ceaf2d7656618f3c54fa6355ce74d45",
     "url": "/static/media/skill.5ceaf2d7.svg"
   },
   {
-    "revision": "da8cfb9149ff105f891a",
-    "url": "/static/js/main.da8cfb91.chunk.js"
+    "revision": "bd68a3d8912176b1034874ac378aecc5",
+    "url": "/static/media/experience.bd68a3d8.svg"
   },
   {
     "revision": "c9483fd7080f0c9d79eccf5bd211c8f6",
@@ -156,7 +168,7 @@ self.__precacheManifest = [
     "url": "/static/media/profile.4d5d5f64.jpg"
   },
   {
-    "revision": "93618320560f344452c8a8562aac6f29",
+    "revision": "a748c0a86302d83cec97c864fa2a2228",
     "url": "/index.html"
   }
 ];
