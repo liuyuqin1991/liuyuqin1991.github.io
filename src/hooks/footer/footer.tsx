@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import useClassMerge from '../base/base';
 import { Link } from 'react-router-dom';
-import classnames from 'classnames';
+import Animation from '../../components/animation/animation';
 import './footer.scss';
 
 
@@ -33,9 +33,9 @@ export default function FooterHook(props: FootProps) {
                         <div className="label">博客</div>
                     </li>
                 </Link>
-                <li key="menu-work" className={liClass("work")} onClick={() => setActiveMenu("work")}>
-                    <div className="icon work"></div>
-                    <div className="label">工作</div>
+                <li key="menu-life" className={liClass("life")} onClick={() => setActiveMenu("life")}>
+                    <div className="icon life"></div>
+                    <div className="label">人生</div>
                 </li>
                 <li key="menu-music" className={liClass("music")} onClick={() => setActiveMenu("music")}>
                     <div className="icon music"></div>

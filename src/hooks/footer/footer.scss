@@ -31,18 +31,18 @@
                     background-size: 100% 100%;
                 }
 
-                &.work {
-                    background: url("../../assets/image/footer/github.svg") no-repeat;
+                &.life {
+                    background: url("../../assets/image/footer/life.svg") no-repeat;
                     background-size: 100% 100%;
                 }
 
                 &.music {
-                    background: url("../../assets/image/footer/csdn.svg") no-repeat;
+                    background: url("../../assets/image/footer/music.svg") no-repeat;
                     background-size: 100% 100%;
                 }
 
                 &.contact {
-                    background: url("../../assets/image/footer/youku.svg") no-repeat;
+                    background: url("../../assets/image/footer/contact.svg") no-repeat;
                     background-size: 100% 100%;
                 }
             }
@@ -60,8 +60,8 @@
             &.active {
 
                 .icon {
-                    width: 28px;
-                    height: 28px;
+                    width: 30px;
+                    height: 30px;
 
                     &.about {
                         background: url("../../assets/image/footer/user-active.svg") no-repeat;
@@ -73,18 +73,18 @@
                         background-size: 100% 100%;
                     }
 
-                    &.work {
-                        background: url("../../assets/image/footer/github.svg") no-repeat;
+                    &.life {
+                        background: url("../../assets/image/footer/life-active.svg") no-repeat;
                         background-size: 100% 100%;
                     }
 
                     &.music {
-                        background: url("../../assets/image/footer/csdn.svg") no-repeat;
+                        background: url("../../assets/image/footer/music-active.svg") no-repeat;
                         background-size: 100% 100%;
                     }
 
                     &.contact {
-                        background: url("../../assets/image/footer/youku.svg") no-repeat;
+                        background: url("../../assets/image/footer/contact-active.svg") no-repeat;
                         background-size: 100% 100%;
                     }
                 }
