@@ -14,7 +14,7 @@ class HomeComponent extends BaseComponent {
 
     render() {
         return <>
-            <div className="home">
+            <div className="module-home">
                 <Profile />
                 <About />
                 <Skill />

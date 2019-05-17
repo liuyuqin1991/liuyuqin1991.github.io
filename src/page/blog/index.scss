@@ -6,12 +6,10 @@
 }
 
 .moodule-blog {
-    @extend .page-bg;
-    z-index: 1;
 
     .tags-ul {
         @extend .flex-row-wrapP-centerS;
-        padding: 1rem 1rem 0;
+        padding: 1.3rem 1.3rem 0;
 
         &>li {
             @include font-custom("PingFang SC", 0.6rem, $c-888);
@@ -28,7 +26,7 @@
     }
 
     .blog-ul {
-        padding: 1rem;
+        padding: 1.3rem;
         background-color: $c-page-background;
         margin-bottom: 3rem;
 
@@ -48,11 +46,7 @@
                 width: 100%;
 
                 .title {
-                    @include font-custom("PingFang SC",
-                    0.6rem,
-                    $c-white,
-                    normal,
-                    0.1px);
+                    @include font-custom("PingFang SC", 0.7rem, $c-aaa);
                     height: 40px;
                 }
 
@@ -72,16 +66,16 @@
                     align-self: flex-end;
                     @include font-custom("showg",
                     0.6rem,
-                    $c-white,
+                    $c-aaa,
                     normal);
-                    margin-top: 0.4rem;
+                    margin-top: 0.6rem;
                 }
             }
         }
 
         a {
+            @include font-custom("PingFang SC", 0.7rem, $c-aaa);
             word-break: break-all;
-            color: #FFF;
             cursor: pointer;
         }
     }

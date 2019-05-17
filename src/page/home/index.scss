@@ -18,10 +18,9 @@
     margin-right: 0.5rem;
 }
 
-.home {
-    background-color: $c-page-background;
-    padding: 1rem;
-    margin-bottom: 2rem;
+.module-home {
+    padding: 1.3rem;
+    margin-bottom: 3rem;
 
     .module-title {
         @extend .flex-row-centerS;
