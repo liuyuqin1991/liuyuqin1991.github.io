@@ -3,7 +3,6 @@ import BaseComponent from '../../components/base-component';
 import Footer from '../../hooks/footer/footer';
 import Tag from '../../components/tag/tag';
 import MusicJson from '../../data/jsons/music.json';
-
 import './index.scss'
 
 interface Music {
@@ -65,7 +64,7 @@ class MusicComponent extends BaseComponent<MusicProps, MusicState> {
         })
         musics.push(
             <li className="music-li" key={"music-item-last"}>
-                查看更多 >
+                <a href="https://i.youku.com/liuyuqin" style={{ color: "#888" }}>查看更多 ></a>
             </li>
         );
         return (
