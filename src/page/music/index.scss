@@ -1,0 +1,53 @@
+@import "../../assets/css/index";
+
+@font-face {
+    font-family: showg;
+    src: local('showg'), url("../../assets/font/showg.ttf") format('opentype');
+}
+
+.module-music {
+
+    .music-ul {
+        padding: 1.3rem 0;
+        background-color: $c-page-background;
+        margin-bottom: 3rem;
+
+        .music-li {
+            @extend .flex-column;
+            background-color: $c-module-background;
+            margin-bottom: 1.2rem;
+
+            &:last-child {
+                @include font-custom("PingFang SC", 0.7rem, $c-aaa);
+                text-align: center;
+                margin-bottom: 0;
+                background-color: $c-page-background;
+            }
+
+            .tag-view {
+                @extend .flex-row-centerS;
+                padding: 0.3rem 0.5rem 0;
+
+                .tags-icon {
+                    width: 0.6rem;
+                    height: 0.6rem;
+                    margin-right: 0.5rem;
+                    background: url("../../assets/image/home/tags.svg") no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+
+            .item-title {
+                @include font-custom("PingFang SC", 0.7rem, $c-aaa);
+                padding: 0 0.5rem;
+                word-break: break-all;
+            }
+
+            .item-date {
+                align-self: flex-end;
+                @include font-custom("showg", 0.6rem, $c-aaa);
+                padding: 0 0.6rem 0.6rem;
+            }
+        }
+    }
+}

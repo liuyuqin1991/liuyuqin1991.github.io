@@ -36,10 +36,12 @@ export default function FooterHook(props: FootProps) {
                     <div className="icon life"></div>
                     <div className="label">人生</div>
                 </li>
-                <li key="menu-music" className={liClass("music")} onClick={() => setActiveMenu("music")}>
-                    <div className="icon music"></div>
-                    <div className="label">音乐</div>
-                </li>
+                <Link to="/music" className="link">
+                    <li key="menu-music" className={liClass("music")} onClick={() => setActiveMenu("music")}>
+                        <div className="icon music"></div>
+                        <div className="label">音乐</div>
+                    </li>
+                </Link>
                 <li key="menu-contact" className={liClass("contact")} onClick={() => setActiveMenu("contact")}>
                     <div className="icon contact"></div>
                     <div className="label">联系</div>
