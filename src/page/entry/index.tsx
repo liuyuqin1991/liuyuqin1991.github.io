@@ -7,10 +7,6 @@ import './index.scss'
 
 class EntryComponent extends BaseComponent {
 
-    constructor(props: any) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="entry">

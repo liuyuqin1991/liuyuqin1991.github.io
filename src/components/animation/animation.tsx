@@ -27,8 +27,6 @@ export default class AnimationView extends BaseComponent<AnimationViewProps, Ani
 
 
     render() {
-        let events;
-        this.props.className ? events = { onClick: () => { this.onAnimationView.bind(this) } } : {};
         return (
             <div className={this.className({ 'is-click': this.state.isClick })} onClick={this.onAnimationView.bind(this)}>
                 {this.props.children || null}

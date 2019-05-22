@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import useClassMerge from '../base/base';
+import React, { useState } from 'react';
+import baseClassMerge from '../base/base';
 import { Link } from 'react-router-dom';
 import './footer.scss';
 
@@ -12,9 +12,9 @@ interface FootProps {
 export default function FooterHook(props: FootProps) {
 
     const [activeMenu, setActiveMenu] = useState(props.activeMenu);
-    const footClass = useClassMerge("footer", props.className);
+    const footClass = baseClassMerge("footer", props.className);
     const liClass = (menu: string) => {
-        return useClassMerge("li-menu", { "active": activeMenu === menu });
+        return baseClassMerge("li-menu", { "active": activeMenu === menu });
     }
 
     return (

@@ -1,6 +1,5 @@
 import React from 'react';
 import { BaseProps } from '../../components/base-component';
-import classnames from 'classnames';
 
 interface TabItemProps extends BaseProps {
     name: string

@@ -17,10 +17,6 @@ class SkillComponent extends BaseComponent {
     renderSkill(skills: Array<SkillInfo>) {
         return <ul className="skill-ul">
             {skills.map((item: SkillInfo, index: number) => {
-                let circle: Array<JSX.Element> = [0, 1, 2, 3].map((num: number) => {
-                    const circleClass: any = { "circle": true, "active": num < item.level };
-                    return <div key={"skill-circle-" + num} className={this.classNames(circleClass)} style={{ left: num * 33 + "%" }}></div>
-                });
                 return <li className={"skill-li"} key={"skill-li-" + index}>
                     <div className="flex-row-spacebetweenP-centerS">
                         <div className="skill-name">{item.name + "【" + item.use + "年】"}</div>
