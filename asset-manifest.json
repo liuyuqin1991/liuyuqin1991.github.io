@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.feb70676.chunk.css",
+    "main.css": "/static/css/main.3b72f8c8.chunk.css",
     "main.js": "/static/js/main.2fa9fe7b.chunk.js",
     "main.js.map": "/static/js/main.2fa9fe7b.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.94795126.chunk.js": "/static/js/2.94795126.chunk.js",
     "static/js/2.94795126.chunk.js.map": "/static/js/2.94795126.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0a01337fbb67f37ba48c1d51d985afe1.js": "/precache-manifest.0a01337fbb67f37ba48c1d51d985afe1.js",
+    "precache-manifest.f4b3d7357f2ac19576eb6ab50122def5.js": "/precache-manifest.f4b3d7357f2ac19576eb6ab50122def5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.feb70676.chunk.css.map": "/static/css/main.feb70676.chunk.css.map",
+    "static/css/main.3b72f8c8.chunk.css.map": "/static/css/main.3b72f8c8.chunk.css.map",
     "static/media/index.scss": "/static/media/web.96b2adf2.svg",
     "static/media/collapse.scss": "/static/media/arrow-right.bccbd4bb.svg",
     "static/media/footer.scss": "/static/media/user.1cb15b8a.svg"
