@@ -1,9 +1,21 @@
 {
     "workExperience": [
         {
+            "companyName": "青云科技",
+            "companyFullName": "青云科技股份有限公司武汉研发中心",
+            "date": "2016.12 — 至今",
+            "department": "研发部",
+            "position": "web前端",
+            "responsibility": [
+                "1. console公有云平台的功能开发及维护工作",
+                "2. boss公有云运维平台的功能开发及维护工作",
+                "3. IAM，ICP业务线的功能开发及维护工作"
+            ]
+        },
+        {
             "companyName": "京东集团",
             "companyFullName": "北京京东尚科信息技术有限公司武汉分公司",
-            "date": "2016.6 — 至今",
+            "date": "2016.6 — 2019.10",
             "department": "新通路事业部-产品研发部",
             "position": "web前端，java后端",
             "responsibility": [
@@ -42,9 +54,25 @@
     ],
     "projectExperience": [
         {
+            "name": "console公有云控制台",
+            "company": "青云科技",
+            "date": "2019.12 — 至今",
+            "description": "console公有云控制台",
+            "responsibility": [
+                "1. 功能开发和维护"
+            ],
+            "technology": "backbone,react hook,es6,scss",
+            "web": [
+                {
+                    "name": "console云平台控制台",
+                    "url": "https://console.qingcloud.com"
+                }
+            ]
+        },
+        {
             "name": "京东朗境可视化数据平台",
             "company": "京东集团",
-            "date": "2018.5 — 至今",
+            "date": "2018.5 — 2019.10",
             "description": "为新通路的内部业务方，运营方，及各部门领导等用户提供一个对内的可视化数据展示平台，目前项目包含新通路整体，销售战报，终端战报，便利店战报四个可视化数据大屏，能够在618，双11等大促期间为业务方，运营方，各部门领导集中展示数据",
             "responsibility": [
                 "1. 完全负责整个项目的前端页面开发"
