@@ -19,7 +19,7 @@
 }
 
 .module-home {
-    padding: 1.3rem;
+    padding: 1.3rem 1.3rem 65px;
     margin-bottom: 3rem;
 
     .module-title {
@@ -199,7 +199,7 @@
         .icon {
             width: 0.7rem;
             height: 0.7rem;
-            margin: 0 0.5rem 0 0;
+            margin: 3px 0.5rem 0 0;
             align-self: flex-start;
 
             &.icon-company {
@@ -216,7 +216,6 @@
                 background: url("../../assets/image/home/department.svg") no-repeat;
                 background-size: 100% 100%;
             }
-
 
             &.icon-position {
                 background: url("../../assets/image/home/position.svg") no-repeat;
