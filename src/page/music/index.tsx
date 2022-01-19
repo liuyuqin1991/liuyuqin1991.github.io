@@ -64,7 +64,7 @@ class MusicComponent extends BaseComponent<MusicProps, MusicState> {
         })
         musics.push(
             <li className="music-li" key={"music-item-last"}>
-                <a href="https://i.youku.com/liuyuqin" style={{ color: "#888" }}>查看更多 ></a>
+                <a href="https://m.bilibili.com/space/13071540" style={{ color: "#888" }}>{`查看更多 >`}</a>
             </li>
         );
         return (
