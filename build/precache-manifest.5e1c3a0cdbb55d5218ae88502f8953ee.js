@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9328346e77a1eec21acc5adf58968c0",
+    "revision": "3b996333c90a1461ca2280e2a9ef211c",
     "url": "/index.html"
   },
   {
-    "revision": "116367096256ff7eb15b",
-    "url": "/static/css/main.9ca29b25.chunk.css"
+    "revision": "bf0074420d930920d7ff",
+    "url": "/static/css/main.fea9ba70.chunk.css"
   },
   {
-    "revision": "7340d03077e98364a4b2",
-    "url": "/static/js/2.94795126.chunk.js"
+    "revision": "4f3020aeb2beba6e5d2b",
+    "url": "/static/js/2.54d87ffa.chunk.js"
   },
   {
-    "revision": "116367096256ff7eb15b",
-    "url": "/static/js/main.43f34756.chunk.js"
+    "revision": "bf0074420d930920d7ff",
+    "url": "/static/js/main.7581a9d7.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "40ba31e2271e6c361b786236ce09186f",
     "url": "/static/media/bg.40ba31e2.jpg"
+  },
+  {
+    "revision": "b539f19ff9834e36dbdf0a3daa5204b7",
+    "url": "/static/media/bilibili.b539f19f.svg"
   },
   {
     "revision": "6a88ed4c9c3ae633fa0f84609d6edeb4",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6fc228ca97e6fb852c75635a2e0e4a4f",
     "url": "/static/media/contact.6fc228ca.svg"
+  },
+  {
+    "revision": "c4df158d5608fe7a782a17b704a4db6c",
+    "url": "/static/media/csdn.c4df158d.svg"
   },
   {
     "revision": "1d15ae0b71ed4efdbfeb6717a866d381",
@@ -94,6 +102,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "38e624e4abd74c5900f7bb67be3a874f",
     "url": "/static/media/game.38e624e4.svg"
+  },
+  {
+    "revision": "c5997e8e2136a1aeb3631d1ec1ec1e16",
+    "url": "/static/media/github.c5997e8e.svg"
+  },
+  {
+    "revision": "ec48d7b955ebef549dedd7108ab51b4a",
+    "url": "/static/media/juejin.ec48d7b9.svg"
   },
   {
     "revision": "263d7cadc65e93c36db1b7823b9521dd",
