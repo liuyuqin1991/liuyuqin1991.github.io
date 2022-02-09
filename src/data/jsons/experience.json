@@ -8,7 +8,7 @@
             "position": "web前端",
             "responsibility": [
                 "1. console公有云平台的功能开发及维护工作",
-                "2. boss公有云运维平台的功能开发及维护工作",
+                "2. boss公有云中台运维平台的功能开发及维护工作",
                 "3. IAM，ICP业务线的功能开发及维护工作",
                 "4. TiDB子portal系统功能开发及维护工作"
             ]
@@ -62,7 +62,7 @@
             "responsibility": [
                 "1. 完全功能开发和维护"
             ],
-            "technology": "react hook,es6,scss,"
+            "technology": "react hook,typescript,es6,scss,webpack等"
         },
         {
             "name": "quickcss",
@@ -88,7 +88,7 @@
             "responsibility": [
                 "1. 功能开发和维护"
             ],
-            "technology": "backbone,react hook,es6,scss",
+            "technology": "backbone,react hook,es6,scss等",
             "web": [
                 {
                     "name": "console云平台控制台",
@@ -104,7 +104,7 @@
             "responsibility": [
                 "1. 完全负责整个项目的前端页面开发"
             ],
-            "technology": "react,es6,scss,echarts",
+            "technology": "react,es6,scss,echarts等",
             "web": [
                 {
                     "name": "朗镜系统",
@@ -121,15 +121,11 @@
                 "1. 独立负责react echarts图表组件库的开发",
                 "2. 负责下拉框，级联选择框，loading组件，主题色等组件的开发。"
             ],
-            "technology": "react,es6,typescript,scss,webpack,echarts",
+            "technology": "react,es6,typescript,scss,webpack,echarts等",
             "web": [
                 {
                     "name": "react echarts",
                     "url": "https://github.com/liuyuqin1991/react-echarts"
-                },
-                {
-                    "name": "react UI",
-                    "url": "http://www.dlforever.cn/ebc"
                 }
             ]
         },
@@ -143,7 +139,7 @@
                 "2. 负责新慧眼项目的部分功能迭代，日常维护工作",
                 "3. 负责项目中所有图表组件的开发"
             ],
-            "technology": "es5，es6，jquery，less，bower，gulp，fez，react，typescript，scss，webpack，echarts",
+            "technology": "es5，es6，jquery，less，bower，gulp，fez，react，typescript，scss，webpack，echarts等",
             "web": [
                 {
                     "name": "慧眼系统",
@@ -159,7 +155,7 @@
             "responsibility": [
                 "1. 负责部分H5页面的开发，例如：品牌聚合页，每日秒杀页，活动满返活动页"
             ],
-            "technology": "es6，react，scss，webpack",
+            "technology": "es6，react，scss，webpack等",
             "web": [
                 {
                     "name": "京东掌柜宝",
@@ -175,7 +171,7 @@
             "responsibility": [
                 "1. 负责店铺前后端系统的日常维护以及新增需求的开发工作"
             ],
-            "technology": "java，ssh，jquery，php"
+            "technology": "java，ssh，jquery，php等"
         },
         {
             "name": "餐饮O2O云平台",
@@ -187,7 +183,7 @@
                 "2. O2O微信线上平台开发",
                 "3. ERP云系统和POS终端的接口服务开发"
             ],
-            "technology": "java，grails，jquery，bootstrap"
+            "technology": "java，grails，jquery，bootstrap等"
         },
         {
             "name": "疾控卫生防疫平台",
@@ -198,7 +194,7 @@
                 "1. 负责烟台牟平疾控预防控制中心项目部署",
                 "2. 烟台新开发区疾病预防控制中心项目的需求迭代，升级维护工作"
             ],
-            "technology": "java，ssh，extjs"
+            "technology": "java，ssh，extjs等"
         }
     ]
 }

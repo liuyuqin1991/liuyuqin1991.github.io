@@ -12,22 +12,22 @@
         {
             "name": "java",
             "level": 3,
-            "use": 6
+            "use": 4
         },
         {
             "name": "css,sass,less",
-            "level": 3,
-            "use": 5
+            "level": 4,
+            "use": 8
         },
         {
             "name": "html",
             "level": 3,
-            "use": 5
+            "use": 8
         },
         {
             "name": "typescript",
             "level": 2,
-            "use": 1
+            "use": 2
         },
         {
             "name": "php",
@@ -37,7 +37,7 @@
         {
             "name": "sql",
             "level": 2,
-            "use": 6
+            "use": 4
         }
     ],
     "libSkill": [
@@ -88,12 +88,12 @@
         {
             "name": "webpack,gulp",
             "level": 2,
-            "use": 2
+            "use": 4
         },
         {
             "name": "git,svn",
             "level": 3,
-            "use": 6
+            "use": 8
         }
     ]
 }
