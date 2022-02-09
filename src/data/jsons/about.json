@@ -5,5 +5,18 @@
     "address": "武汉",
     "experience": "8年",
     "phone": "135 4516 9589",
-    "email": "414097512@qq.com"
+    "email": "414097512@qq.com",
+    "webs": [{
+        "name": "github",
+        "web": "https://github.com/liuyuqin1991"
+    },{
+        "name": "csdn",
+        "web": "https://blog.csdn.net/liuyuqin1991"
+    },{
+        "name": "juejin",
+        "web": "https://juejin.cn/user/1838039172134136"
+    },{
+        "name": "bilibili",
+        "web": "https://space.bilibili.com/13071540"
+    }]
 }

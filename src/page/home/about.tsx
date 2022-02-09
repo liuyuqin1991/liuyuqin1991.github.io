@@ -1,8 +1,28 @@
 import React from 'react';
 import BaseComponent from '../../components/base-component';
 import AboutJson from '../../data/jsons/about.json';
+import GithubIcon from '../../assets/image/home/github.svg';
+import CsdnIcon from '../../assets/image/home/csdn.svg';
+import JuejinIcon from '../../assets/image/home/juejin.svg';
+import BilibiliIcon from '../../assets/image/home/bilibili.svg';
 
 class AboutComponent extends BaseComponent {
+
+    renderWebIcons() {
+        const svgIcon: { [key: string]: string } = {
+            github: GithubIcon, csdn: CsdnIcon,juejin: JuejinIcon, bilibili: BilibiliIcon
+        };
+        const webs = AboutJson.webs;
+        return webs.map(function(item) {
+            return (
+                <>
+                    <a href={item.web}>
+                        <img src={svgIcon[item.name]} alt={item.name}></img>
+                    </a>
+                </>
+            );
+        });
+    }
 
     render() {
         return <div className="module-view about">
@@ -16,6 +36,8 @@ class AboutComponent extends BaseComponent {
             <div className="about-info">邮箱：{AboutJson.email}</div>
             <div className="module-title h2">评价</div>
             <div className="about-introduction">{AboutJson.introduction}</div>
+            <div className="module-title h2">个人网站</div>
+            <div className="about-web-icon">{this.renderWebIcons()}</div>
         </div>
     }
 }
