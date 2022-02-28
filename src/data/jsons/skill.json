@@ -42,6 +42,11 @@
     ],
     "libSkill": [
         {
+            "name": "lodash",
+            "level": 3,
+            "use": 5
+        },
+        {
             "name": "echarts",
             "level": 4,
             "use": 2
@@ -49,24 +54,19 @@
         {
             "name": "jquery",
             "level": 2,
-            "use": 4
+            "use": 3
         },
         {
             "name": "ant design",
             "level": 2,
             "use": 1
-        },
-        {
-            "name": "extjs",
-            "level": 2,
-            "use": 2
         }
     ],
     "frameSkill": [
         {
             "name": "react",
             "level": 3,
-            "use": 2
+            "use": 5
         },
         {
             "name": "vue",
@@ -86,12 +86,17 @@
     ],
     "otherSkill": [
         {
-            "name": "webpack,gulp",
+            "name": "webpack",
             "level": 2,
-            "use": 4
+            "use": 5
         },
         {
-            "name": "git,svn",
+            "name": "gulp",
+            "level": 1,
+            "use": 1
+        },
+        {
+            "name": "git",
             "level": 3,
             "use": 8
         }

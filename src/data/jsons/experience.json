@@ -7,10 +7,10 @@
             "department": "研发部",
             "position": "web前端",
             "responsibility": [
-                "1. console公有云平台的功能开发及维护工作",
+                "1. console公有私有云平台的功能开发及维护工作",
                 "2. boss公有云中台运维平台的功能开发及维护工作",
-                "3. IAM，ICP业务线的功能开发及维护工作",
-                "4. TiDB子portal系统功能开发及维护工作"
+                "3. console子项目IAM，ICP业务线的功能开发及维护工作",
+                "4. console子项目TiDB数据库平台功能开发及维护工作"
             ]
         },
         {
@@ -55,14 +55,14 @@
     ],
     "projectExperience": [
         {
-            "name": "TiDB数据库子portal系统",
+            "name": "青云console子系统TiDB数据库系统",
             "company": "青云科技",
             "date": "2021.8 — 至今",
-            "description": "console的子portal系统，帮助用户操作TiDB数据库",
+            "description": "console的子系统数据平台，帮助用户操作TiDB数据库",
             "responsibility": [
                 "1. 完全功能开发和维护"
             ],
-            "technology": "react hook,typescript,es6,scss,webpack等"
+            "technology": "react hook,es6,typescript,quickcss,scss,webpack等"
         },
         {
             "name": "quickcss",
@@ -72,7 +72,7 @@
             "responsibility": [
                 "1. 完全功能开发和维护"
             ],
-            "technology": "css,scss",
+            "technology": "scss,css",
             "web": [
                 {
                     "name": "quickcss",
