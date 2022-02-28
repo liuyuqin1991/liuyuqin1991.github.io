@@ -55,17 +55,17 @@
     ],
     "projectExperience": [
         {
-            "name": "青云console子系统TiDB数据库系统",
+            "name": "TiDB数据库子系统",
             "company": "青云科技",
             "date": "2021.8 — 至今",
             "description": "console的子系统数据平台，帮助用户操作TiDB数据库",
             "responsibility": [
                 "1. 完全功能开发和维护"
             ],
-            "technology": "react hook,es6,typescript,quickcss,scss,webpack等"
+            "technology": "react,es6,typescript,quickcss,scss,webpack等"
         },
         {
-            "name": "quickcss",
+            "name": "a-css库quickcss",
             "company": "青云科技",
             "date": "2021.12 — 至今",
             "description": "一个能提高开发效率的针对web开发的轻量级a-css库",

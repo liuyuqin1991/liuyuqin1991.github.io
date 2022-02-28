@@ -127,6 +127,7 @@
 
             .about-introduction {
                 @include font-custom("PingFang SC", 0.7rem, $c-888);
+                word-break: break-all;
                 padding-bottom: 1rem;
             }
         }

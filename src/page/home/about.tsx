@@ -34,7 +34,7 @@ class AboutComponent extends BaseComponent {
             <div className="about-info">工龄：{AboutJson.experience}</div>
             <div className="about-info">电话：{AboutJson.phone}</div>
             <div className="about-info">邮箱：{AboutJson.email}</div>
-            <div className="module-title h2">评价</div>
+            <div className="module-title h2">个人介绍</div>
             <div className="about-introduction">{AboutJson.introduction}</div>
             <div className="module-title h2">个人网站</div>
             <div className="about-web-icon">{this.renderWebIcons()}</div>
