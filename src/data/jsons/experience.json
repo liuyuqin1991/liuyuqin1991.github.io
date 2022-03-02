@@ -39,18 +39,6 @@
                 "2. ERP云系统和POS终端的接口服务开发",
                 "3. 数据采集与同步的swing程序开发"
             ]
-        },
-        {
-            "companyName": "东鲁电子",
-            "companyFullName": "烟台东鲁电子科技股份有限公司",
-            "date": "2013.6 — 2014.4",
-            "department": "软件研发部",
-            "position": "java后端",
-            "responsibility": [
-                "1. 负责公司运营的项目的后续开发和维护工作",
-                "2. 项目框架优化",
-                "3. 负责管理其他开发人员，以及相关技术培训工作"
-            ]
         }
     ],
     "projectExperience": [
@@ -184,17 +172,6 @@
                 "3. ERP云系统和POS终端的接口服务开发"
             ],
             "technology": "java，grails，jquery，bootstrap等"
-        },
-        {
-            "name": "疾控卫生防疫平台",
-            "company": "东鲁电子",
-            "date": "2012.6 — 2014.3",
-            "description": "疾控卫生防疫平台是烟台东鲁电子科技信息有限公司的一套成熟的软件产品，功能包括健康证办理，许可证办理，卫生监测，卫生检测，疫苗管理以及日常办公功能。",
-            "responsibility": [
-                "1. 负责烟台牟平疾控预防控制中心项目部署",
-                "2. 烟台新开发区疾病预防控制中心项目的需求迭代，升级维护工作"
-            ],
-            "technology": "java，ssh，extjs等"
         }
     ]
 }
