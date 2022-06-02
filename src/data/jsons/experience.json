@@ -1,177 +1,200 @@
 {
-    "workExperience": [
+  "workExperience": [
+    {
+      "companyName": "青云科技",
+      "companyFullName": "青云科技股份有限公司武汉研发中心",
+      "date": "2019.12 — 2022.6",
+      "department": "研发部",
+      "position": "web前端",
+      "responsibility": [
+        "1. console公有私有云平台的功能开发及维护工作",
+        "2. boss公有云中台运维平台的功能开发及维护工作",
+        "3. console子项目IAM，ICP业务线的功能开发及维护工作",
+        "4. console子项目TiDB数据库平台功能开发及维护工作",
+        "5. ks组件库datepicker及tree组件开发"
+      ]
+    },
+    {
+      "companyName": "京东集团",
+      "companyFullName": "北京京东尚科信息技术有限公司武汉分公司",
+      "date": "2016.6 — 2019.10",
+      "department": "新通路事业部-产品研发部",
+      "position": "web前端，java后端",
+      "responsibility": [
+        "1. 完全负责京东集团新通路事业部慧眼外部可视化数据平台前端页面的功能开发及维护工作",
+        "2. 完全负责京东集团新通路事业部朗境内部可视化数据平台前端页面的功能开发及维护工作",
+        "3. 完全负责京东集团新通路事业部鹰眼数据后端服务项目的功能开发及维护工作",
+        "4. 负责京东掌柜宝部分H5功能页面的开发",
+        "5. 负责京东便利店部分中台管理页面的开发",
+        "6. 参与京东集团旗下一号店店铺装修前后端系统的维护工作"
+      ]
+    },
+    {
+      "companyName": "方象软件",
+      "companyFullName": "青岛方象软件技术股份有限公司",
+      "date": "2014.5 — 2016.5",
+      "department": "软件研发部",
+      "position": "java后端",
+      "responsibility": [
+        "1. 负责O2O微信线上平台的开发",
+        "2. ERP云系统和POS终端的接口服务开发",
+        "3. 数据采集与同步的swing程序开发"
+      ]
+    }
+  ],
+  "projectExperience": [
+    {
+      "name": "TiDB数据库子系统",
+      "company": "青云科技",
+      "date": "2021.8 — 至今",
+      "description": "console的子系统数据平台，帮助用户操作TiDB数据库",
+      "responsibility": ["1. 完全功能开发和维护"],
+      "technology": "react,es6,typescript,quickcss,scss,webpack等"
+    },
+    {
+      "name": "a-css库quickcss",
+      "company": "青云科技",
+      "date": "2021.12 — 至今",
+      "description": "一个能提高开发效率的针对web开发的轻量级a-css库",
+      "responsibility": ["1. 完全功能开发和维护"],
+      "technology": "scss,css",
+      "web": [
         {
-            "companyName": "青云科技",
-            "companyFullName": "青云科技股份有限公司武汉研发中心",
-            "date": "2019.12 — 至今",
-            "department": "研发部",
-            "position": "web前端",
-            "responsibility": [
-                "1. console公有私有云平台的功能开发及维护工作",
-                "2. boss公有云中台运维平台的功能开发及维护工作",
-                "3. console子项目IAM，ICP业务线的功能开发及维护工作",
-                "4. console子项目TiDB数据库平台功能开发及维护工作"
-            ]
-        },
-        {
-            "companyName": "京东集团",
-            "companyFullName": "北京京东尚科信息技术有限公司武汉分公司",
-            "date": "2016.6 — 2019.10",
-            "department": "新通路事业部-产品研发部",
-            "position": "web前端，java后端",
-            "responsibility": [
-                "1. 完全负责京东集团新通路事业部慧眼外部可视化数据平台前端页面的功能开发及维护工作",
-                "2. 完全负责京东集团新通路事业部朗境内部可视化数据平台前端页面的功能开发及维护工作",
-                "3. 完全负责京东集团新通路事业部鹰眼数据后端服务项目的功能开发及维护工作",
-                "4. 负责京东掌柜宝部分H5功能页面的开发",
-                "5. 负责京东便利店部分中台管理页面的开发",
-                "6. 参与京东集团旗下一号店店铺装修前后端系统的维护工作"
-            ]
-        },
-        {
-            "companyName": "方象软件",
-            "companyFullName": "青岛方象软件技术股份有限公司",
-            "date": "2014.5 — 2016.5",
-            "department": "软件研发部",
-            "position": "java后端",
-            "responsibility": [
-                "1. 负责O2O微信线上平台的开发",
-                "2. ERP云系统和POS终端的接口服务开发",
-                "3. 数据采集与同步的swing程序开发"
-            ]
+          "name": "quickcss",
+          "url": "https://github.com/liuyuqin1991/quickcss"
         }
-    ],
-    "projectExperience": [
+      ]
+    },
+    {
+      "name": "console公有云控制台",
+      "company": "青云科技",
+      "date": "2019.12 — 至今",
+      "description": "console公有云控制台",
+      "responsibility": ["1. 部分功能开发和维护"],
+      "technology": "backbone,react hook,es6,scss等",
+      "web": [
         {
-            "name": "TiDB数据库子系统",
-            "company": "青云科技",
-            "date": "2021.8 — 至今",
-            "description": "console的子系统数据平台，帮助用户操作TiDB数据库",
-            "responsibility": [
-                "1. 完全功能开发和维护"
-            ],
-            "technology": "react,es6,typescript,quickcss,scss,webpack等"
-        },
-        {
-            "name": "a-css库quickcss",
-            "company": "青云科技",
-            "date": "2021.12 — 至今",
-            "description": "一个能提高开发效率的针对web开发的轻量级a-css库",
-            "responsibility": [
-                "1. 完全功能开发和维护"
-            ],
-            "technology": "scss,css",
-            "web": [
-                {
-                    "name": "quickcss",
-                    "url": "https://github.com/liuyuqin1991/quickcss"
-                }
-            ]
-        },
-        {
-            "name": "console公有云控制台",
-            "company": "青云科技",
-            "date": "2019.12 — 至今",
-            "description": "console公有云控制台",
-            "responsibility": [
-                "1. 功能开发和维护"
-            ],
-            "technology": "backbone,react hook,es6,scss等",
-            "web": [
-                {
-                    "name": "console云平台控制台",
-                    "url": "https://console.qingcloud.com"
-                }
-            ]
-        },
-        {
-            "name": "京东朗境可视化数据平台",
-            "company": "京东集团",
-            "date": "2018.5 — 2019.10",
-            "description": "为新通路的内部业务方，运营方，及各部门领导等用户提供一个对内的可视化数据展示平台，目前项目包含新通路整体，销售战报，终端战报，便利店战报四个可视化数据大屏，能够在618，双11等大促期间为业务方，运营方，各部门领导集中展示数据",
-            "responsibility": [
-                "1. 完全负责整个项目的前端页面开发"
-            ],
-            "technology": "react,es6,scss,echarts等",
-            "web": [
-                {
-                    "name": "朗镜系统",
-                    "url": "http://langjing.jd.com"
-                }
-            ]
-        },
-        {
-            "name": "react echarts与react ui",
-            "company": "京东集团",
-            "date": "2018.4 — 2019.10",
-            "description": "react echarts是一套基于echarts的图表组件库，我负责所有组件的开发，目前已开源至github；react ui则是为各项目提供一套统一的react风格的UI组件，是在element react ui组件的基础上针对性的进行修改与重构，我主要负责部分组件的开发。",
-            "responsibility": [
-                "1. 独立负责react echarts图表组件库的开发",
-                "2. 负责下拉框，级联选择框，loading组件，主题色等组件的开发。"
-            ],
-            "technology": "react,es6,typescript,scss,webpack,echarts等",
-            "web": [
-                {
-                    "name": "react echarts",
-                    "url": "https://github.com/liuyuqin1991/react-echarts"
-                }
-            ]
-        },
-        {
-            "name": "京东慧眼可视化数据平台",
-            "company": "京东集团",
-            "date": "2017.6 — 2019.10",
-            "description": "为新通路的外部供应商，品牌商等用户提供一个对外的可视化数据展示平台，利用图表，表格，指标，地图等组件直观展示它们的各项数据，例如经营分析，促销分析，门店洞察，用户分析，单品sku数据，行者任务，门店地图分布等等。该项目在18年底进行了一次框架技术重构升级。",
-            "responsibility": [
-                "1. 负责老慧眼项目的部分功能迭代，日常维护工作",
-                "2. 负责新慧眼项目的部分功能迭代，日常维护工作",
-                "3. 负责项目中所有图表组件的开发"
-            ],
-            "technology": "es5，es6，jquery，less，bower，gulp，fez，react，typescript，scss，webpack，echarts等",
-            "web": [
-                {
-                    "name": "慧眼系统",
-                    "url": "http://hy.jd.com"
-                }
-            ]
-        },
-        {
-            "name": "京东掌柜宝",
-            "company": "京东集团",
-            "date": "2018.1 — 2019.10",
-            "description": "京东掌柜宝是京东集团旗下一站式B2B订货平台。",
-            "responsibility": [
-                "1. 负责部分H5页面的开发，例如：品牌聚合页，每日秒杀页，活动满返活动页"
-            ],
-            "technology": "es6，react，scss，webpack等",
-            "web": [
-                {
-                    "name": "京东掌柜宝",
-                    "url": "http://zgb.m.jd.com/"
-                }
-            ]
-        },
-        {
-            "name": "京东一号店店铺装修系统",
-            "company": "京东一号店",
-            "date": "2016.6 — 2017.6",
-            "description": "针对一号店商户进行店铺个性化装修，分别有PC端店铺装修与H5移动端店铺装修，支持多种个性化模块装修，模块化功能，让商户能很方便直观的进行店铺的相关装修工作。",
-            "responsibility": [
-                "1. 负责店铺前后端系统的日常维护以及新增需求的开发工作"
-            ],
-            "technology": "java，ssh，jquery，php等"
-        },
-        {
-            "name": "餐饮O2O云平台",
-            "company": "方象软件",
-            "date": "2014.5 — 2016.5",
-            "description": "基于餐饮和零售行业的O2O服务云平台，包含了POS终端云系统，O2O微信线上平台，进销存ERP云系统，saas门户，对老C/S架构的系统的数据采集汇总统计服务等多个子系统的一套大型的综合项目。",
-            "responsibility": [
-                "1. 负责数据采集及同步的swing程序开发",
-                "2. O2O微信线上平台开发",
-                "3. ERP云系统和POS终端的接口服务开发"
-            ],
-            "technology": "java，grails，jquery，bootstrap等"
+          "name": "console云平台控制台",
+          "url": "https://console.qingcloud.com"
         }
-    ]
+      ]
+    },
+    {
+      "name": "京东朗境可视化数据平台",
+      "company": "京东集团",
+      "date": "2018.5 — 2019.10",
+      "description": "为新通路的内部业务方，运营方，及各部门领导等用户提供一个对内的可视化数据展示平台，目前项目包含新通路整体，销售战报，终端战报，便利店战报四个可视化数据大屏，能够在618，双11等大促期间为业务方，运营方，各部门领导集中展示数据",
+      "responsibility": ["1. 完全负责整个项目的前端页面开发"],
+      "technology": "react,es6,scss,echarts等",
+      "web": [
+        {
+          "name": "朗镜系统",
+          "url": "http://langjing.jd.com"
+        }
+      ]
+    },
+    {
+      "name": "react echarts与react ui",
+      "company": "京东集团",
+      "date": "2018.4 — 2019.10",
+      "description": "react echarts是一套基于echarts的图表组件库，我负责所有组件的开发，目前已开源至github；react ui则是为各项目提供一套统一的react风格的UI组件，是在element react ui组件的基础上针对性的进行修改与重构，我主要负责部分组件的开发。",
+      "responsibility": [
+        "1. 独立负责react echarts图表组件库的开发",
+        "2. 负责下拉框，级联选择框，loading组件，主题色等组件的开发。"
+      ],
+      "technology": "react,es6,typescript,scss,webpack,echarts等",
+      "web": [
+        {
+          "name": "react echarts",
+          "url": "https://github.com/liuyuqin1991/react-echarts"
+        }
+      ]
+    },
+    {
+      "name": "京东慧眼可视化数据平台",
+      "company": "京东集团",
+      "date": "2017.6 — 2019.10",
+      "description": "为新通路的外部供应商，品牌商等用户提供一个对外的可视化数据展示平台，利用图表，表格，指标，地图等组件直观展示它们的各项数据，例如经营分析，促销分析，门店洞察，用户分析，单品sku数据，行者任务，门店地图分布等等。该项目在18年底进行了一次框架技术重构升级。",
+      "responsibility": [
+        "1. 负责老慧眼项目的部分功能迭代，日常维护工作",
+        "2. 负责新慧眼项目的部分功能迭代，日常维护工作",
+        "3. 负责项目中所有图表组件的开发"
+      ],
+      "technology": "es5，es6，jquery，less，bower，gulp，fez，react，typescript，scss，webpack，echarts等",
+      "web": [
+        {
+          "name": "慧眼系统",
+          "url": "http://hy.jd.com"
+        }
+      ]
+    },
+    {
+      "name": "京东掌柜宝",
+      "company": "京东集团",
+      "date": "2018.1 — 2019.10",
+      "description": "京东掌柜宝是京东集团旗下一站式B2B订货平台。",
+      "responsibility": [
+        "1. 负责部分H5页面的开发，例如：品牌聚合页，每日秒杀页，活动满返活动页"
+      ],
+      "technology": "es6，react，scss，webpack等",
+      "web": [
+        {
+          "name": "京东掌柜宝",
+          "url": "http://zgb.m.jd.com/"
+        }
+      ]
+    },
+    {
+      "name": "京东一号店店铺装修系统",
+      "company": "京东一号店",
+      "date": "2016.6 — 2017.6",
+      "description": "针对一号店商户进行店铺个性化装修，分别有PC端店铺装修与H5移动端店铺装修，支持多种个性化模块装修，模块化功能，让商户能很方便直观的进行店铺的相关装修工作。",
+      "responsibility": [
+        "1. 负责店铺前后端系统的日常维护以及新增需求的开发工作"
+      ],
+      "technology": "java，ssh，jquery，php等"
+    },
+    {
+      "name": "餐饮O2O云平台",
+      "company": "方象软件",
+      "date": "2014.5 — 2016.5",
+      "description": "基于餐饮和零售行业的O2O服务云平台，包含了POS终端云系统，O2O微信线上平台，进销存ERP云系统，saas门户，对老C/S架构的系统的数据采集汇总统计服务等多个子系统的一套大型的综合项目。",
+      "responsibility": [
+        "1. 负责数据采集及同步的swing程序开发",
+        "2. O2O微信线上平台开发",
+        "3. ERP云系统和POS终端的接口服务开发"
+      ],
+      "technology": "java，grails，jquery，bootstrap等"
+    }
+  ],
+  "libExperience": [
+    {
+      "name": "react-datepicker",
+      "company": "青云科技",
+      "date": "2021.8 — 2022.4",
+      "description": "Datepicker 基础组件库，包含标准单日期，单时间，双日期区间选择",
+      "responsibility": ["1. 完全功能开发和维护"],
+      "technology": "react hook,typescript,webpack,eslint,docz",
+      "web": [
+        {
+          "name": "react-datepicker",
+          "url": "https://liuyuqin1991.github.io/react-datepicker/"
+        }
+      ]
+    },
+    {
+      "name": "a-css库quickcss",
+      "company": "青云科技",
+      "date": "2021.12 — 2022.2",
+      "description": "一个能提高开发效率的针对web开发的轻量级a-css库",
+      "responsibility": ["1. 完全功能开发和维护"],
+      "technology": "scss,css",
+      "web": [
+        {
+          "name": "quickcss",
+          "url": "https://github.com/liuyuqin1991/quickcss"
+        }
+      ]
+    }
+  ]
 }
