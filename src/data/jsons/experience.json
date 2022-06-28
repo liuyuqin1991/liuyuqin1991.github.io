@@ -44,26 +44,12 @@
   ],
   "projectExperience": [
     {
-      "name": "TiDB数据库子系统",
+      "name": "TiDB数据库控制系统",
       "company": "青云科技",
       "date": "2021.8 — 至今",
       "description": "console的子系统数据平台，帮助用户操作TiDB数据库",
       "responsibility": ["1. 完全功能开发和维护"],
-      "technology": "react,es6,typescript,quickcss,scss,webpack等"
-    },
-    {
-      "name": "a-css库quickcss",
-      "company": "青云科技",
-      "date": "2021.12 — 至今",
-      "description": "一个能提高开发效率的针对web开发的轻量级a-css库",
-      "responsibility": ["1. 完全功能开发和维护"],
-      "technology": "scss,css",
-      "web": [
-        {
-          "name": "quickcss",
-          "url": "https://github.com/liuyuqin1991/quickcss"
-        }
-      ]
+      "technology": "react hook,es6,typescript,quickcss,scss,webpack等"
     },
     {
       "name": "console公有云控制台",
@@ -71,7 +57,7 @@
       "date": "2019.12 — 至今",
       "description": "console公有云控制台",
       "responsibility": ["1. 部分功能开发和维护"],
-      "technology": "backbone,react hook,es6,scss等",
+      "technology": "backbone,react,es6,scss等",
       "web": [
         {
           "name": "console云平台控制台",
@@ -90,23 +76,6 @@
         {
           "name": "朗镜系统",
           "url": "http://langjing.jd.com"
-        }
-      ]
-    },
-    {
-      "name": "react echarts与react ui",
-      "company": "京东集团",
-      "date": "2018.4 — 2019.10",
-      "description": "react echarts是一套基于echarts的图表组件库，我负责所有组件的开发，目前已开源至github；react ui则是为各项目提供一套统一的react风格的UI组件，是在element react ui组件的基础上针对性的进行修改与重构，我主要负责部分组件的开发。",
-      "responsibility": [
-        "1. 独立负责react echarts图表组件库的开发",
-        "2. 负责下拉框，级联选择框，loading组件，主题色等组件的开发。"
-      ],
-      "technology": "react,es6,typescript,scss,webpack,echarts等",
-      "web": [
-        {
-          "name": "react echarts",
-          "url": "https://github.com/liuyuqin1991/react-echarts"
         }
       ]
     },
@@ -193,6 +162,23 @@
         {
           "name": "quickcss",
           "url": "https://github.com/liuyuqin1991/quickcss"
+        }
+      ]
+    },
+    {
+      "name": "react-echarts与react-ui",
+      "company": "京东集团",
+      "date": "2018.4 — 2019.10",
+      "description": "react-echarts是一套基于echarts的图表组件库，我负责所有组件的开发，目前已开源至github；react ui则是为各项目提供一套统一的react风格的UI组件，是在element react ui组件的基础上针对性的进行修改与重构，我主要负责部分组件的开发。",
+      "responsibility": [
+        "1. 独立负责react echarts图表组件库的开发",
+        "2. 负责下拉框，级联选择框，loading组件，主题色等组件的开发。"
+      ],
+      "technology": "react,es6,typescript,scss,webpack,echarts等",
+      "web": [
+        {
+          "name": "react-echarts",
+          "url": "https://github.com/liuyuqin1991/react-echarts"
         }
       ]
     }

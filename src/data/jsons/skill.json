@@ -7,9 +7,9 @@
       "use": 9
     },
     {
-      "name": "java",
-      "level": 3,
-      "use": 4
+      "name": "typescript",
+      "level": 2,
+      "use": 3
     },
     {
       "name": "css,sass,less",
@@ -22,9 +22,9 @@
       "use": 8
     },
     {
-      "name": "typescript",
-      "level": 2,
-      "use": 3
+      "name": "java",
+      "level": 3,
+      "use": 4
     }
   ],
   "libSkill": [
