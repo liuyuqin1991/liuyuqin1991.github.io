@@ -1,273 +1,272 @@
-@import "../../assets/css/index.scss";
+@import '../../assets/css/index.scss';
 
 @mixin tag-icon($code) {
-    width: 0.6rem;
-    height: 0.6rem;
-    content: "";
-    background: url("../../assets/image/home/"+ $code + ".svg") no-repeat;
-    background-size: 100% 100%;
-    margin: 0.4rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  content: '';
+  background: url('../../assets/image/home/' + $code + '.svg') no-repeat;
+  background-size: 100% 100%;
+  margin: 0.4rem;
 }
 
 @mixin title-icon($code) {
-    width: 1.2rem;
-    height: 1.2rem;
-    content: "";
-    background: url("../../assets/image/home/"+ $code + ".svg") no-repeat;
-    background-size: 100% 100%;
-    margin-right: 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  content: '';
+  background: url('../../assets/image/home/' + $code + '.svg') no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.5rem;
 }
 
 .module-home {
-    padding: 1.3rem 1.3rem 65px;
-    margin-bottom: 3rem;
+  padding: 1.3rem 1.3rem 65px;
+  margin-bottom: 3rem;
 
-    .module-title {
+  .module-title {
+    @extend .flex-row-centerS;
+    align-self: flex-start;
+    padding: 1rem 0;
+
+    &.h1 {
+      @include font-custom('PingFang SC', 1.2rem, #fff, bold);
+    }
+
+    &.h2 {
+      @include font-custom('PingFang SC', 0.8rem, #fff, bold);
+    }
+
+    &.user:before {
+      @include title-icon('user');
+    }
+
+    &.skill:before {
+      margin-top: -0.2rem;
+      @include title-icon('skill');
+    }
+
+    &.experience:before {
+      @include title-icon('experience');
+    }
+
+    &.education:before {
+      @include title-icon('education');
+    }
+  }
+
+  .module-view {
+    background-color: $c-module-background;
+    border-radius: 10px;
+    padding: 0 1rem;
+
+    &.profile {
+      @extend .flex-column-centerS;
+      padding: 1.5rem 0;
+
+      .profile-img {
+        width: 8.5rem;
+        height: 8.5rem;
+        border-radius: 50%;
+        background: url('../../assets/image/home/profile.jpeg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .profile-name {
+        @include font-custom('PingFang SC', 1.2rem, $c-888, bold);
+        padding: 1rem 0 0.5rem;
+      }
+
+      .profile-tag-ul {
+        @extend .flex-column-centerS;
+        @include font-custom('PingFang SC', 0.7rem, $c-primary-8);
+
+        .profile-tag-li {
+          @extend .flex-row-centerS;
+
+          &.code:before,
+          &.code:after {
+            @include tag-icon('code');
+          }
+
+          &.game:before,
+          &.game:after {
+            @include tag-icon('game');
+          }
+
+          &.music:before,
+          &.music:after {
+            @include tag-icon('music');
+          }
+
+          &.anime:before,
+          &.anime:after {
+            @include tag-icon('anime');
+          }
+        }
+      }
+    }
+
+    &.about {
+      @extend .flex-column;
+      @include font-custom('PingFang SC', 0.7rem, $c-888);
+      margin-top: 1rem;
+
+      .about-info {
+        padding: 0.2rem 0;
+      }
+
+      .about-web-icon {
+        @extend .flex-row;
+        padding-bottom: 1rem;
+
+        img {
+          width: 18px;
+          height: 18px;
+          margin-right: 0.5rem;
+        }
+      }
+
+      .about-introduction {
+        @include font-custom('PingFang SC', 0.7rem, $c-888);
+        word-break: break-all;
+        padding-bottom: 1rem;
+      }
+    }
+
+    &.skill {
+      @extend .flex-column;
+      @include font-custom('PingFang SC', 0.7rem, $c-888);
+      margin-top: 1rem;
+
+      .skill-tags-view {
         @extend .flex-row-centerS;
-        align-self: flex-start;
-        padding: 1rem 0;
 
-        &.h1 {
-            @include font-custom("PingFang SC", 1.2rem, #FFF, bold);
+        .tags-icon {
+          width: 0.8rem;
+          height: 0.8rem;
+          margin: 0 0.8rem 0 0.2rem;
+          background: url('../../assets/image/home/tags.svg') no-repeat;
+          background-size: 100% 100%;
         }
 
-        &.h2 {
-            @include font-custom("PingFang SC", 0.8rem, #FFF, bold);
-        }
+        .skill-tags-ul {
+          @extend .flex-row-centerS;
 
-        &.user:before {
-            @include title-icon("user");
+          > li {
+            padding: 0.1rem 0.2rem;
+            margin: 0 0.4rem;
+            border-radius: 5px;
+            color: $c-primary-8;
+          }
         }
+      }
 
-        &.skill:before {
-            margin-top: -0.2rem;
-            @include title-icon("skill");
-        }
+      .skill-tab-ul {
+        @extend .flex-row-spacebetweenP-centerS;
 
-        &.experience:before {
-            @include title-icon("experience");
+        .skill-tab {
+          width: 25%;
+          padding: 0.4rem;
+          text-align: center;
+          border-bottom: 1px solid $c-primary-5;
         }
+      }
 
-        &.education:before {
-            @include title-icon("education");
+      .skill-ul > li {
+        @extend .flex-column;
+        padding-bottom: 0.6rem;
+
+        &:last-child {
+          padding-bottom: 0;
         }
+      }
     }
 
-    .module-view {
-        background-color: $c-module-background;
-        border-radius: 10px;
-        padding: 0 1rem;
+    &.experience {
+      margin-top: 1rem;
+      padding-bottom: 1rem;
 
-        &.profile {
-            @extend .flex-column-centerS;
-            padding: 1.5rem 0;
+      .experience-item {
+        @extend .flex-row-centerS;
+        padding-bottom: 0.6rem;
+      }
 
-            .profile-img {
-                width: 8.5rem;
-                height: 8.5rem;
-                border-radius: 50%;
-                background: url("../../assets/image/home/profile.jpg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            .profile-name {
-                @include font-custom("PingFang SC", 1.2rem, $c-888, bold);
-                padding: 1rem 0 0.5rem;
-            }
-
-            .profile-tag-ul {
-                @extend .flex-column-centerS;
-                @include font-custom("PingFang SC", 0.7rem, $c-primary-8);
-
-                .profile-tag-li {
-                    @extend .flex-row-centerS;
-
-                    &.code:before,
-                    &.code:after {
-                        @include tag-icon("code");
-                    }
-
-                    &.game:before,
-                    &.game:after {
-                        @include tag-icon("game");
-                    }
-
-                    &.music:before,
-                    &.music:after {
-                        @include tag-icon("music");
-                    }
-
-                    &.anime:before,
-                    &.anime:after {
-                        @include tag-icon("anime");
-                    }
-                }
-            }
-        }
-
-        &.about {
-            @extend .flex-column;
-            @include font-custom("PingFang SC", 0.7rem, $c-888);
-            margin-top: 1rem;
-
-            .about-info {
-                padding: 0.2rem 0;
-            }
-
-            .about-web-icon {
-                @extend .flex-row;
-                padding-bottom: 1rem;
-
-                img {
-                    width: 18px;
-                    height: 18px;
-                    margin-right: 0.5rem;
-                }
-            }
-
-            .about-introduction {
-                @include font-custom("PingFang SC", 0.7rem, $c-888);
-                word-break: break-all;
-                padding-bottom: 1rem;
-            }
-        }
-
-        &.skill {
-            @extend .flex-column;
-            @include font-custom("PingFang SC", 0.7rem, $c-888);
-            margin-top: 1rem;
-
-            .skill-tags-view {
-                @extend .flex-row-centerS;
-
-                .tags-icon {
-                    width: 0.8rem;
-                    height: 0.8rem;
-                    margin: 0 0.8rem 0 0.2rem;
-                    background: url("../../assets/image/home/tags.svg") no-repeat;
-                    background-size: 100% 100%;
-                }
-
-                .skill-tags-ul {
-                    @extend .flex-row-centerS;
-
-                    >li {
-                        padding: 0.1rem 0.2rem;
-                        margin: 0 0.4rem;
-                        border-radius: 5px;
-                        color: $c-primary-8;
-                    }
-                }
-            }
-
-            .skill-tab-ul {
-                @extend .flex-row-spacebetweenP-centerS;
-
-                .skill-tab {
-                    width: 25%;
-                    padding: 0.4rem;
-                    text-align: center;
-                    border-bottom: 1px solid $c-primary-5;
-
-                }
-            }
-
-            .skill-ul>li {
-                @extend .flex-column;
-                padding-bottom: 0.6rem;
-
-                &:last-child {
-                    padding-bottom: 0;
-                }
-            }
-        }
-
-        &.experience {
-            margin-top: 1rem;
-            padding-bottom: 1rem;
-
-            .experience-item {
-                @extend .flex-row-centerS;
-                padding-bottom: 0.6rem;
-            }
-
-            .text {
-                @extend .flex-column;
-                max-width: 90%;
-                word-break: break-word;
-            }
-        }
-
-        &.education {
-            margin-top: 1rem;
-            padding-bottom: 1rem;
-
-            .education-item {
-                @extend .flex-row-centerS;
-                padding-bottom: 0.6rem;
-            }
-        }
-
-        .icon {
-            width: 0.7rem;
-            height: 0.7rem;
-            margin: 3px 0.5rem 0 0;
-            align-self: flex-start;
-
-            &.icon-company {
-                background: url("../../assets/image/home/company.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-date {
-                background: url("../../assets/image/home/date.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-department {
-                background: url("../../assets/image/home/department.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-position {
-                background: url("../../assets/image/home/position.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-responsibility {
-                background: url("../../assets/image/home/responsibility.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-description {
-                background: url("../../assets/image/home/description.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-technology {
-                background: url("../../assets/image/home/technology.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-web {
-                background: url("../../assets/image/home/web.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-school {
-                background: url("../../assets/image/home/school.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-major {
-                background: url("../../assets/image/home/major.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-
-            &.icon-degree {
-                background: url("../../assets/image/home/degree.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-        }
+      .text {
+        @extend .flex-column;
+        max-width: 90%;
+        word-break: break-word;
+      }
     }
+
+    &.education {
+      margin-top: 1rem;
+      padding-bottom: 1rem;
+
+      .education-item {
+        @extend .flex-row-centerS;
+        padding-bottom: 0.6rem;
+      }
+    }
+
+    .icon {
+      width: 0.7rem;
+      height: 0.7rem;
+      margin: 3px 0.5rem 0 0;
+      align-self: flex-start;
+
+      &.icon-company {
+        background: url('../../assets/image/home/company.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-date {
+        background: url('../../assets/image/home/date.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-department {
+        background: url('../../assets/image/home/department.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-position {
+        background: url('../../assets/image/home/position.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-responsibility {
+        background: url('../../assets/image/home/responsibility.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-description {
+        background: url('../../assets/image/home/description.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-technology {
+        background: url('../../assets/image/home/technology.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-web {
+        background: url('../../assets/image/home/web.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-school {
+        background: url('../../assets/image/home/school.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-major {
+        background: url('../../assets/image/home/major.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &.icon-degree {
+        background: url('../../assets/image/home/degree.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
 }

@@ -142,7 +142,7 @@
       "company": "青云科技",
       "date": "2021.8 — 2022.4",
       "description": "Datepicker 基础组件库，包含标准单日期，单时间，双日期区间选择",
-      "responsibility": ["1. 完全功能开发和维护"],
+      "responsibility": ["完全功能开发和维护"],
       "technology": "react hook,typescript,webpack,eslint,docz",
       "web": [
         {
@@ -156,12 +156,40 @@
       "company": "青云科技",
       "date": "2021.12 — 2022.2",
       "description": "一个能提高开发效率的针对web开发的轻量级a-css库",
-      "responsibility": ["1. 完全功能开发和维护"],
+      "responsibility": ["完全功能开发和维护"],
       "technology": "scss,css",
       "web": [
         {
           "name": "quickcss",
           "url": "https://github.com/liuyuqin1991/quickcss"
+        }
+      ]
+    },
+    {
+      "name": "vscode插件color-tips",
+      "company": "青云科技",
+      "date": "2021.6 — 2021.6",
+      "description": "vscode插件，hover颜色编码提示公共颜色变量，支持相同及相近颜色两种变量提示",
+      "responsibility": ["完全功能开发和维护"],
+      "technology": "typescript",
+      "web": [
+        {
+          "name": "qingcloud-color-tips",
+          "url": "https://github.com/liuyuqin1991/qingcloud-color-tip"
+        }
+      ]
+    },
+    {
+      "name": "chrome插件color-tips",
+      "company": "青云科技",
+      "date": "2021.9 — 2021.9",
+      "description": "chrome插件，figma设计稿网页版公共颜色变量，支持相同及相近颜色两种变量提示",
+      "responsibility": ["完全功能开发和维护"],
+      "technology": "typescript",
+      "web": [
+        {
+          "name": "chrome-extensions-figma-color",
+          "url": "https://github.com/liuyuqin1991/chrome-extensions-figma-color"
         }
       ]
     },

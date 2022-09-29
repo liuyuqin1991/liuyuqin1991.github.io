@@ -15,13 +15,11 @@ class AboutComponent extends BaseComponent {
       bilibili: BilibiliIcon,
     };
     const webs = AboutJson.webs;
-    return webs.map(function (item) {
+    return webs.map(function (item, index) {
       return (
-        <>
-          <a href={item.web}>
-            <img src={svgIcon[item.name]} alt={item.name}></img>
-          </a>
-        </>
+        <a href={item.web} key={'about-image' + index}>
+          <img src={svgIcon[item.name]} alt={item.name}></img>
+        </a>
       );
     });
   }

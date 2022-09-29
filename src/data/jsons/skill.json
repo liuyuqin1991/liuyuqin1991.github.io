@@ -62,7 +62,7 @@
     },
     {
       "name": "struts,hibernate,spring",
-      "level": 3,
+      "level": 2,
       "use": 4
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "name": "git",
-      "level": 3,
+      "level": 2,
       "use": 8
     }
   ]
