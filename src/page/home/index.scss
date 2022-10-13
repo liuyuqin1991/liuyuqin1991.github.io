@@ -112,11 +112,15 @@
 
       .about-info {
         padding: 0.2rem 0;
+
+        &.bottom-tip {
+          font-style: italic;
+          padding: 0.1rem 0 1rem 0;
+        }
       }
 
       .about-web-icon {
         @extend .flex-row;
-        padding-bottom: 1rem;
 
         img {
           width: 18px;

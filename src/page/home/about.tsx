@@ -40,6 +40,10 @@ class AboutComponent extends BaseComponent {
         <div className="about-introduction">{AboutJson.introduction}</div>
         <div className="module-title h2">个人网站</div>
         <div className="about-web-icon">{this.renderWebIcons()}</div>
+        <div className="about-info bottom-tip">
+          tip：github请开启手机vpn，或电脑vpn访问
+          https://github.com/liuyuqin1991
+        </div>
       </div>
     );
   }
