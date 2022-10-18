@@ -24,6 +24,17 @@ class AboutComponent extends BaseComponent {
     });
   }
 
+  renderAdvantages() {
+    const advantagesArr = AboutJson.advantages;
+    return (
+      <ul>
+        {advantagesArr.map(function (item, index) {
+          return <li>{`> ${item}`}</li>;
+        })}
+      </ul>
+    );
+  }
+
   render() {
     return (
       <div className="module-view about">
@@ -36,8 +47,8 @@ class AboutComponent extends BaseComponent {
         <div className="about-info">电话：{AboutJson.phone}</div>
         <div className="about-info">邮箱：{AboutJson.email}</div>
         <div className="about-info">求职：{AboutJson.job}</div>
-        <div className="module-title h2">个人介绍</div>
-        <div className="about-introduction">{AboutJson.introduction}</div>
+        <div className="module-title h2">个人优势</div>
+        <div className="about-introduction">{this.renderAdvantages()}</div>
         <div className="module-title h2">个人网站</div>
         <div className="about-web-icon">{this.renderWebIcons()}</div>
         <div className="about-info bottom-tip">
