@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acf3429055b9b6514082ce7624fa3f84",
+    "revision": "dcddb53f6e5e5d494a0e35d4eb779fc0",
     "url": "/index.html"
   },
   {
-    "revision": "6171957337b18dcf38e1",
-    "url": "/static/css/main.9d2ea057.chunk.css"
+    "revision": "1a209245780cfee7aabc",
+    "url": "/static/css/main.f6697aac.chunk.css"
   },
   {
-    "revision": "4f3020aeb2beba6e5d2b",
-    "url": "/static/js/2.54d87ffa.chunk.js"
+    "revision": "3259c0948069d3d2d668",
+    "url": "/static/js/2.7a05e96d.chunk.js"
   },
   {
-    "revision": "6171957337b18dcf38e1",
-    "url": "/static/js/main.241f313d.chunk.js"
+    "revision": "1a209245780cfee7aabc",
+    "url": "/static/js/main.3a983af4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8fe46fee3bdf7ac96e8fde14ae3d8781",
     "url": "/static/media/blog.8fe46fee.svg"
+  },
+  {
+    "revision": "5915b9625768667980bd965cbb838c07",
+    "url": "/static/media/chrome-color-tip.5915b962.png"
   },
   {
     "revision": "456e626a41b50d3e36b58b57f4408b56",
@@ -148,6 +152,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.8976ea3c.jpeg"
   },
   {
+    "revision": "20d7652da4cb7e06f27f6c8fe6ba7be6",
+    "url": "/static/media/quickcss.20d7652d.png"
+  },
+  {
+    "revision": "d878c35e28cc00c2b111589f7c5fa528",
+    "url": "/static/media/react-datepicker.d878c35e.png"
+  },
+  {
     "revision": "73dcc9080407cce067b3e745fdc11215",
     "url": "/static/media/responsibility.73dcc908.svg"
   },
@@ -182,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d8357235e31d6db1966837c468e9a1e",
     "url": "/static/media/user.6d835723.svg"
+  },
+  {
+    "revision": "5775bebc0be13a9182f709561d956f53",
+    "url": "/static/media/vscode-color-tip.5775bebc.png"
   },
   {
     "revision": "96b2adf2c9e4a01f8300ab04bcf1c4ca",

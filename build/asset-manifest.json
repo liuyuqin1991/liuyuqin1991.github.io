@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d2ea057.chunk.css",
-    "main.js": "/static/js/main.241f313d.chunk.js",
-    "main.js.map": "/static/js/main.241f313d.chunk.js.map",
+    "main.css": "/static/css/main.f6697aac.chunk.css",
+    "main.js": "/static/js/main.3a983af4.chunk.js",
+    "main.js.map": "/static/js/main.3a983af4.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.54d87ffa.chunk.js": "/static/js/2.54d87ffa.chunk.js",
-    "static/js/2.54d87ffa.chunk.js.map": "/static/js/2.54d87ffa.chunk.js.map",
+    "static/js/2.7a05e96d.chunk.js": "/static/js/2.7a05e96d.chunk.js",
+    "static/js/2.7a05e96d.chunk.js.map": "/static/js/2.7a05e96d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c08af8bc38e2e4588566fefadaac64dd.js": "/precache-manifest.c08af8bc38e2e4588566fefadaac64dd.js",
+    "precache-manifest.89c50aeb0bab87790523c04431d2cef5.js": "/precache-manifest.89c50aeb0bab87790523c04431d2cef5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9d2ea057.chunk.css.map": "/static/css/main.9d2ea057.chunk.css.map",
+    "static/css/main.f6697aac.chunk.css.map": "/static/css/main.f6697aac.chunk.css.map",
     "static/media/index.scss": "/static/media/web.96b2adf2.svg",
     "static/media/collapse.scss": "/static/media/arrow-right.bccbd4bb.svg",
     "static/media/bilibili.svg": "/static/media/bilibili.b539f19f.svg",
     "static/media/footer.scss": "/static/media/user.1cb15b8a.svg",
+    "static/media/chrome-color-tip.png": "/static/media/chrome-color-tip.5915b962.png",
     "static/media/csdn.svg": "/static/media/csdn.c4df158d.svg",
     "static/media/github.svg": "/static/media/github.c5997e8e.svg",
-    "static/media/juejin.svg": "/static/media/juejin.ec48d7b9.svg"
+    "static/media/juejin.svg": "/static/media/juejin.ec48d7b9.svg",
+    "static/media/quickcss.png": "/static/media/quickcss.20d7652d.png",
+    "static/media/react-datepicker.png": "/static/media/react-datepicker.d878c35e.png",
+    "static/media/vscode-color-tip.png": "/static/media/vscode-color-tip.5775bebc.png"
   }
 }
