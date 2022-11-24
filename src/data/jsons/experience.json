@@ -138,74 +138,55 @@
   ],
   "libExperience": [
     {
-      "name": "react-datepicker",
-      "company": "青云科技",
-      "date": "2021.8 — 2022.4",
-      "description": "Datepicker 基础组件库，包含标准单日期，单时间，双日期区间选择",
-      "responsibility": ["完全功能开发和维护"],
-      "technology": "react hook,typescript,webpack,eslint,docz",
-      "web": [
-        {
-          "name": "react-datepicker",
-          "url": "https://github.com/liuyuqin1991/react-datepicker/"
-        }
-      ]
-    },
-    {
       "name": "a-css库quickcss",
-      "company": "青云科技",
-      "date": "2021.12 — 2022.2",
-      "description": "一个能提高开发效率的针对web开发的轻量级a-css库",
-      "responsibility": ["完全功能开发和维护"],
-      "technology": "scss,css",
+      "description": "quickcss 是一个专门针对 web 业务向开发的轻量级 acss 库，提供了在使用最为频繁的 css 属性时的最方便类名记法。轻量，方便，易懂",
+      "image": "quickcss",
       "web": [
         {
-          "name": "quickcss",
+          "name": "了解更多",
           "url": "https://github.com/liuyuqin1991/quickcss"
         }
       ]
     },
     {
-      "name": "vscode插件color-tips",
-      "company": "青云科技",
-      "date": "2021.6 — 2021.6",
-      "description": "vscode插件，hover颜色编码提示公共颜色变量，支持相同及相近颜色两种变量提示",
-      "responsibility": ["完全功能开发和维护"],
-      "technology": "typescript",
+      "name": "react-datepicker",
+      "description": "Datepicker 基础组件库，包含标准单日期，单时间，双日期区间选择",
+      "image": "react-datepicker",
       "web": [
         {
-          "name": "qingcloud-color-tips",
+          "name": "了解更多",
+          "url": "https://github.com/liuyuqin1991/react-datepicker/"
+        }
+      ]
+    },
+    {
+      "name": "vscode插件color-tips",
+      "description": "vscode插件，hover颜色编码提示公共颜色变量，支持相同及相近颜色两种变量提示",
+      "image": "vscode-color-tips",
+      "web": [
+        {
+          "name": "了解更多",
           "url": "https://github.com/liuyuqin1991/qingcloud-color-tip"
         }
       ]
     },
     {
       "name": "chrome插件color-tips",
-      "company": "青云科技",
-      "date": "2021.9 — 2021.9",
       "description": "chrome插件，figma设计稿网页版公共颜色变量，支持相同及相近颜色两种变量提示",
-      "responsibility": ["完全功能开发和维护"],
-      "technology": "typescript",
+      "image": "chrome-color-tips",
       "web": [
         {
-          "name": "chrome-extensions-figma-color",
+          "name": "了解更多",
           "url": "https://github.com/liuyuqin1991/chrome-extensions-figma-color"
         }
       ]
     },
     {
-      "name": "react-echarts与react-ui",
-      "company": "京东集团",
-      "date": "2018.4 — 2019.10",
-      "description": "react-echarts是一套基于echarts的图表组件库，我负责所有组件的开发，目前已开源至github；react ui则是为各项目提供一套统一的react风格的UI组件，是在element react ui组件的基础上针对性的进行修改与重构，我主要负责部分组件的开发。",
-      "responsibility": [
-        "1. 独立负责react echarts图表组件库的开发",
-        "2. 负责下拉框，级联选择框，loading组件，主题色等组件的开发。"
-      ],
-      "technology": "react,es6,typescript,scss,webpack,echarts等",
+      "name": "react-echarts",
+      "description": "react-echarts是一套基于echarts的图表组件库，我负责所有组件的开发，目前已开源至github",
       "web": [
         {
-          "name": "react-echarts",
+          "name": "了解更多",
           "url": "https://github.com/liuyuqin1991/react-echarts"
         }
       ]

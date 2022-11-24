@@ -6,14 +6,15 @@ import CsdnIcon from '../../assets/image/home/csdn.svg';
 import JuejinIcon from '../../assets/image/home/juejin.svg';
 import BilibiliIcon from '../../assets/image/home/bilibili.svg';
 
+const svgIcon: { [key: string]: string } = {
+  github: GithubIcon,
+  csdn: CsdnIcon,
+  juejin: JuejinIcon,
+  bilibili: BilibiliIcon,
+};
+
 class AboutComponent extends BaseComponent {
   renderWebIcons() {
-    const svgIcon: { [key: string]: string } = {
-      github: GithubIcon,
-      csdn: CsdnIcon,
-      juejin: JuejinIcon,
-      bilibili: BilibiliIcon,
-    };
     const webs = AboutJson.webs;
     return webs.map(function (item, index) {
       return (
@@ -29,7 +30,7 @@ class AboutComponent extends BaseComponent {
     return (
       <ul>
         {advantagesArr.map(function (item, index) {
-          return <li>{`> ${item}`}</li>;
+          return <li key={`advantage-${index}`}>{`> ${item}`}</li>;
         })}
       </ul>
     );

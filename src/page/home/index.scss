@@ -199,6 +199,12 @@
         max-width: 90%;
         word-break: break-word;
       }
+
+      .image {
+        > img {
+          width: 100%;
+        }
+      }
     }
 
     &.education {

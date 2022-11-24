@@ -1,5 +1,9 @@
 import React from 'react';
 import BaseComponent from '../../components/base-component';
+import quickcssImg from '../../assets/image/tool/quickcss.png';
+import reactDatepickerImg from '../../assets/image/tool/react-datepicker.png';
+import vscodeColorTipImg from '../../assets/image/tool/vscode-color-tip.png';
+import chromeColorTipImg from '../../assets/image/tool/chrome-color-tip.png';
 import { Collapse, CollapseItem } from '../../hooks/collapse';
 import ExperienceJson from '../../data/jsons/experience.json';
 
@@ -24,6 +28,23 @@ interface ProjectExperience {
     url: string;
   }>;
 }
+
+interface LibExperience {
+  name: string;
+  description: string;
+  image?: string;
+  web?: Array<{
+    name: string;
+    url: string;
+  }>;
+}
+
+const libImage: { [key: string]: string } = {
+  quickcss: quickcssImg,
+  'react-datepicker': reactDatepickerImg,
+  'vscode-color-tips': vscodeColorTipImg,
+  'chrome-color-tips': chromeColorTipImg,
+};
 
 class ExperienceComponent extends BaseComponent {
   renderWorkExperience(): JSX.Element {
@@ -142,44 +163,22 @@ class ExperienceComponent extends BaseComponent {
 
   renderLibExperience() {
     let projectDom = ExperienceJson.libExperience.map(
-      (item: ProjectExperience, index: number) => {
+      (item: LibExperience, index: number) => {
         return (
           <CollapseItem
             title={item.name}
             name={index + ''}
             key={'project-experience-' + index}
           >
-            <div className="experience-item company">
-              <div className="icon icon-company" />
-              <div className="text">{item.company}</div>
-            </div>
-            <div className="experience-item date">
-              <div className="icon icon-date" />
-              <div className="text">{item.date}</div>
-            </div>
             <div className="experience-item description">
               <div className="icon icon-description" />
               <div className="text">{item.description}</div>
             </div>
-            <div className="experience-item technology">
-              <div className="icon icon-technology" />
-              <div className="text">{item.technology}</div>
-            </div>
-            <div className="experience-item responsibility">
-              <div className="icon icon-responsibility" />
-              <div className="text">
-                {item.responsibility.map((text: string, index: number) => {
-                  return (
-                    <div
-                      key={'project-experience-responsibility-' + index}
-                      style={{ marginTop: index === 0 ? '0' : '10px' }}
-                    >
-                      {text}
-                    </div>
-                  );
-                })}
+            {item.image && (
+              <div className="experience-item image">
+                <img src={libImage[item.image]} alt={item.name}></img>
               </div>
-            </div>
+            )}
             {item.web && (
               <div className="experience-item web">
                 <div className="icon icon-web" />
