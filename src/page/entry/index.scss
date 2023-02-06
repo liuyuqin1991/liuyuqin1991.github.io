@@ -1,128 +1,114 @@
-@import "../../assets/css/index.scss";
+@import '../../assets/css/index.scss';
 
 @font-face {
-    font-family: cb;
-    src: local('cb'), url("../../assets/font/custom-black.ttf") format('opentype');
+  font-family: cb;
+  src: local('cb'), url('../../assets/font/custom-black.ttf') format('opentype');
 }
 
 @font-face {
-    font-family: showg;
-    src: local('showg'), url("../../assets/font/showg.ttf") format('opentype');
+  font-family: showg;
+  src: local('showg'), url('../../assets/font/showg.ttf') format('opentype');
 }
 
 .entry {
+  width: 100%;
+  height: 100%;
+
+  .header {
+    @extend .flex-row-flexendP;
+    width: 100%;
+    height: 60px;
+    z-index: 600;
+    position: fixed;
+
+    .top-bar-view {
+      position: relative;
+      height: 60px;
+
+      .top-bar {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        background: url('../../assets/image/entry/2023.svg') no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+  .content {
+    @extend .flex-row-centerP-centerS;
     width: 100%;
     height: 100%;
+    background: rgba(17, 17, 17, 1) url(../../assets/image/entry/bg.jpg)
+      no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
 
-    .header {
-        @extend .flex-row-flexendP;
-        width: 100%;
-        height: 60px;
-        z-index: 600;
-        position: fixed;
-
-        .top-bar-view {
-            position: relative;
-            height: 60px;
-
-            .top-bar {
-                position: absolute;
-                top: 20px;
-                right: 20px;
-                width: 40px;
-                height: 40px;
-                background: url("../../assets/image/entry/2022.svg") no-repeat;
-                background-size: 100% 100%;
-            }
-        }
+    .content-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(17, 17, 17, 0.8);
+      z-index: -1;
     }
 
-    .content {
+    .content-view {
+      @extend .flex-column-centerP-centerS;
+
+      .content-head {
+        @include font-custom('showg', 1rem, $c-primary, bold, 2px);
+      }
+
+      .content-welcome {
+        @include font-custom('showg', 2.8rem, $c-white, bold, 5px);
+      }
+
+      .content-description {
         @extend .flex-row-centerP-centerS;
-        width: 100%;
-        height: 100%;
-        background: rgba(17, 17, 17, 1) url(../../assets/image/entry/bg.jpg) no-repeat;
-        background-size: 100% 100%;
-        color: #FFF;
-        position: relative;
-        z-index: 1;
+        margin-top: 0.4rem;
 
-        .content-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(17, 17, 17, 0.8);
-            z-index: -1;
+        .description-icon {
+          width: 0.64rem;
+          height: 0.64rem;
+
+          &.left {
+            background: url('../../assets/image/entry/code.svg') no-repeat;
+            background-size: 100% 100%;
+            margin-right: 0.4rem;
+          }
+
+          &.right {
+            background: url('../../assets/image/entry/music.svg') no-repeat;
+            background-size: 100% 100%;
+            margin-left: 0.4rem;
+          }
         }
 
-        .content-view {
-            @extend .flex-column-centerP-centerS;
-
-            .content-head {
-                @include font-custom("showg",
-                1rem,
-                $c-primary,
-                bold,
-                2px);
-            }
-
-            .content-welcome {
-                @include font-custom("showg",
-                2.8rem,
-                $c-white,
-                bold,
-                5px);
-            }
-
-            .content-description {
-                @extend .flex-row-centerP-centerS;
-                margin-top: 0.4rem;
-
-                .description-icon {
-                    width: 0.64rem;
-                    height: 0.64rem;
-
-                    &.left {
-                        background: url("../../assets/image/entry/code.svg") no-repeat;
-                        background-size: 100% 100%;
-                        margin-right: 0.4rem;
-                    }
-
-                    &.right {
-                        background: url("../../assets/image/entry/music.svg") no-repeat;
-                        background-size: 100% 100%;
-                        margin-left: 0.4rem;
-                    }
-                }
-
-                .description-item {
-                    @include font-custom("cb",
-                    0.6rem,
-                    $c-white-8,
-                    normal);
-                }
-
-                .divide {
-                    height: 0.4rem;
-                    border-right: 1px solid $c-white-8;
-                    margin: 0 0.6rem;
-                }
-            }
-
-            .more-btn {
-                @include font-custom("showg",
-                0.5rem,
-                $c-white,
-                normal,
-                4px);
-                margin-top: 2rem;
-
-                a {
-                    color: $c-white,
-                }
-            }
+        .description-item {
+          @include font-custom('cb', 0.6rem, $c-white-8, normal);
         }
+
+        .divide {
+          height: 0.4rem;
+          border-right: 1px solid $c-white-8;
+          margin: 0 0.6rem;
+        }
+      }
+
+      .more-btn {
+        @include font-custom('showg', 0.5rem, $c-white, normal, 4px);
+        margin-top: 2rem;
+
+        a {
+          color: $c-white;
+        }
+      }
     }
+  }
 }
