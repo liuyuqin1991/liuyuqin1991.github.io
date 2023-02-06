@@ -101,6 +101,11 @@
           &.anime:after {
             @include tag-icon('anime');
           }
+
+          &.cat:before,
+          &.cat:after {
+            @include tag-icon('cat');
+          }
         }
       }
     }
