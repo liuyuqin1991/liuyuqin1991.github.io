@@ -213,7 +213,7 @@ class ExperienceComponent extends BaseComponent {
         {this.renderWorkExperience()}
         <div className="module-title h2">项目经验</div>
         {this.renderProjectExperience()}
-        <div className="module-title h2">组件库经验</div>
+        <div className="module-title h2">开源项目</div>
         {this.renderLibExperience()}
       </div>
     );

@@ -47,6 +47,11 @@
       "name": "ant design",
       "level": 2,
       "use": 1
+    },
+    {
+      "name": "element ui",
+      "level": 1,
+      "use": 1
     }
   ],
   "frameSkill": [
@@ -57,7 +62,7 @@
     },
     {
       "name": "vue",
-      "level": 1,
+      "level": 2,
       "use": 1
     },
     {

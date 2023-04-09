@@ -1,6 +1,16 @@
 {
   "workExperience": [
     {
+      "companyName": "数字建造",
+      "companyFullName": "武汉数字建造产业技术研究院有限公司",
+      "date": "2023.3 — 至今",
+      "department": "研发部",
+      "position": "web前端",
+      "responsibility": [
+        "1. 负责建筑道路行业的某些国企数字化信息化项目开发、项目管理工作和开发人员管理工作"
+      ]
+    },
+    {
       "companyName": "青云科技",
       "companyFullName": "青云科技股份有限公司武汉研发中心",
       "date": "2019.12 — 2022.6",
@@ -32,7 +42,7 @@
     {
       "companyName": "方象软件",
       "companyFullName": "青岛方象软件技术股份有限公司",
-      "date": "2014.5 — 2016.5",
+      "date": "2013.6 — 2016.5",
       "department": "软件研发部",
       "position": "java后端",
       "responsibility": [
