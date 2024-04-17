@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee31140c748a7a77b2a79301741a8f99",
+    "revision": "638f3d35fcb0a80d29c8e9cbc9d454d4",
     "url": "/index.html"
   },
   {
-    "revision": "458dc0495072fb082c9a",
+    "revision": "ca9873ffe43971225cea",
     "url": "/static/css/main.b42c44a4.chunk.css"
   },
   {
-    "revision": "3259c0948069d3d2d668",
-    "url": "/static/js/2.7a05e96d.chunk.js"
+    "revision": "9eca74e48c1a6fdc09f2",
+    "url": "/static/js/2.5e2c3d49.chunk.js"
   },
   {
-    "revision": "458dc0495072fb082c9a",
-    "url": "/static/js/main.7392d176.chunk.js"
+    "revision": "ca9873ffe43971225cea",
+    "url": "/static/js/main.1123f118.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -110,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "38e624e4abd74c5900f7bb67be3a874f",
     "url": "/static/media/game.38e624e4.svg"
+  },
+  {
+    "revision": "41daee4644efd535f82c37d97570340d",
+    "url": "/static/media/gitee.41daee46.svg"
   },
   {
     "revision": "c5997e8e2136a1aeb3631d1ec1ec1e16",
