@@ -1,7 +1,7 @@
 {
   "advantages": [
-    "10年工作经验，3年后端，7年前端",
-    "注重用户体验和页面美学，艺术气息，产品思维",
+    "11年工作经验，3年后端，8年前端",
+    "注重用户体验，产品思维",
     "全栈开发与全流程项目管理经验",
     "较强的技术自学能力，喜欢技术分享",
     "善于归纳、总结、整理及文档输出",
@@ -9,9 +9,9 @@
     "为人和善，性格好，心态好"
   ],
   "name": "刘宇骎",
-  "age": "32",
+  "age": "33",
   "address": "武汉",
-  "experience": "10年",
+  "experience": "11年",
   "phone": "135 4516 9589",
   "email": "414097512@qq.com",
   "job": "web前端",
@@ -19,6 +19,10 @@
     {
       "name": "github",
       "web": "https://github.com/liuyuqin1991"
+    },
+    {
+      "name": "gitee",
+      "web": "https://liuyuqin-1991.gitee.io/front-library"
     },
     {
       "name": "csdn",

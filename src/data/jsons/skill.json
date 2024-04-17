@@ -1,96 +1,104 @@
 {
-  "tags": ["web前端", "java后端"],
+  "tags": [
+    "web前端",
+    "java后端"
+  ],
   "languageSkill": [
     {
       "name": "javascript",
-      "level": 3,
-      "use": 9
+      "level": 3
     },
     {
       "name": "typescript",
-      "level": 2,
-      "use": 3
+      "level": 2
     },
     {
       "name": "css,sass,less",
-      "level": 4,
-      "use": 9
+      "level": 4
     },
     {
       "name": "html",
-      "level": 3,
-      "use": 8
+      "level": 3
     },
     {
       "name": "java",
-      "level": 3,
-      "use": 4
+      "level": 3
     }
   ],
   "libSkill": [
     {
       "name": "lodash",
-      "level": 3,
-      "use": 5
+      "level": 4
     },
     {
       "name": "echarts",
-      "level": 4,
-      "use": 2
+      "level": 4
     },
     {
       "name": "jquery",
-      "level": 2,
-      "use": 3
+      "level": 2
     },
     {
       "name": "ant design",
-      "level": 2,
-      "use": 1
+      "level": 2
     },
     {
       "name": "element ui",
-      "level": 1,
-      "use": 1
+      "level": 2
+    },
+    {
+      "name": "quickcss",
+      "level": 4
+    },{
+      "name": "vant",
+      "level": 2
+    },{
+      "name": "moment&dayjs",
+      "level": 3
     }
   ],
   "frameSkill": [
     {
       "name": "react",
-      "level": 3,
-      "use": 6
+      "level": 3
     },
     {
       "name": "vue",
-      "level": 2,
-      "use": 1
+      "level": 3
     },
     {
       "name": "struts,hibernate,spring",
-      "level": 2,
-      "use": 4
+      "level": 2
     },
     {
       "name": "grails",
-      "level": 2,
-      "use": 2
+      "level": 2
     }
   ],
   "otherSkill": [
     {
       "name": "webpack",
-      "level": 2,
-      "use": 5
+      "level": 2
     },
     {
       "name": "gulp",
-      "level": 1,
-      "use": 1
+      "level": 1
     },
     {
       "name": "git",
-      "level": 2,
-      "use": 8
+      "level": 2
+    },
+    {
+      "name": "markdown",
+      "level": 2
+    },
+    {
+      "name": "eslint",
+      "level": 2
+    },
+    {
+      "name": "nginx",
+      "level": 2
     }
   ]
 }

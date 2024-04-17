@@ -7,7 +7,9 @@
       "department": "研发部",
       "position": "web前端",
       "responsibility": [
-        "1. 负责建筑道路行业的某些国企数字化信息化项目开发、项目管理工作和开发人员管理工作"
+        "1. 负责主要产品工程云平台的系统功能开发，需求及项目管理",
+        "2. 负责公司交付系统（山推，武汉地铁，中韩石化，盈科安监处，尖刀智慧孪生平台，长沙长勘院，青山深基坑，厦门深基坑等项目）的开发工作和整个前端开发管理",
+        "3. 负责公司前端体系搭建，规范制定，新技术调研，人员管理，面试招聘等工作"
       ]
     },
     {
@@ -54,12 +56,20 @@
   ],
   "projectExperience": [
     {
+      "name": "数字建造工程云",
+      "company": "数字建造",
+      "date": "2023.3 — 至今",
+      "description": "工程云面向全国建筑行业单位，提供了一个工程多维数字化建模与应用和基于工程物联网的数字化工地的聚合平台，包含隐患排查，风险管控，网格围栏，AI预警报警，三维模型，数据大屏及定制化模块等功能，并基于工程云平台定制化各类企业项目",
+      "responsibility": ["1. 负责工程云的框架搭建，项目管理，模块开发，通用业务组件开发"],
+      "technology": "vue2，es6，echarts，quickcss，scss，threejs等"
+    },
+    {
       "name": "TiDB数据库控制系统",
       "company": "青云科技",
       "date": "2021.8 — 至今",
       "description": "console的子系统数据平台，帮助用户操作TiDB数据库",
       "responsibility": ["1. 完全功能开发和维护"],
-      "technology": "react hook,es6,typescript,quickcss,scss,webpack等"
+      "technology": "react，es6，typescript，quickcss，scss，webpack等"
     },
     {
       "name": "console公有云控制台",
@@ -81,7 +91,7 @@
       "date": "2018.5 — 2019.10",
       "description": "为新通路的内部业务方，运营方，及各部门领导等用户提供一个对内的可视化数据展示平台，目前项目包含新通路整体，销售战报，终端战报，便利店战报四个可视化数据大屏，能够在618，双11等大促期间为业务方，运营方，各部门领导集中展示数据",
       "responsibility": ["1. 完全负责整个项目的前端页面开发"],
-      "technology": "react,es6,scss,echarts等",
+      "technology": "react，es6，scss，echarts等",
       "web": [
         {
           "name": "朗镜系统",

@@ -5,12 +5,14 @@ import GithubIcon from '../../assets/image/home/github.svg';
 import CsdnIcon from '../../assets/image/home/csdn.svg';
 import JuejinIcon from '../../assets/image/home/juejin.svg';
 import BilibiliIcon from '../../assets/image/home/bilibili.svg';
+import GiteeIcon from '../../assets/image/home/gitee.svg';
 
 const svgIcon: { [key: string]: string } = {
   github: GithubIcon,
   csdn: CsdnIcon,
   juejin: JuejinIcon,
   bilibili: BilibiliIcon,
+  gitee: GiteeIcon
 };
 
 class AboutComponent extends BaseComponent {

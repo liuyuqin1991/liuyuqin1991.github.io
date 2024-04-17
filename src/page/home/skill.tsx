@@ -7,7 +7,6 @@ import { Tabs, TabItem } from '../../hooks/tabs';
 interface SkillInfo {
     name: string
     level: number
-    use: number
 }
 
 class SkillComponent extends BaseComponent {
@@ -19,7 +18,7 @@ class SkillComponent extends BaseComponent {
             {skills.map((item: SkillInfo, index: number) => {
                 return <li className={"skill-li"} key={"skill-li-" + index}>
                     <div className="flex-row-spacebetweenP-centerS">
-                        <div className="skill-name">{item.name + "【" + item.use + "年】"}</div>
+                        <div className="skill-name">{item.name}</div>
                         <div className="skill-level">{this.skillLevelMap[item.level]}</div>
                     </div>
                 </li>
