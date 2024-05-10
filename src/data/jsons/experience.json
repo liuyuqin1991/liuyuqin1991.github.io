@@ -210,6 +210,16 @@
           "url": "https://github.com/liuyuqin1991/react-echarts"
         }
       ]
+    },
+    {
+      "name": "前端文档库",
+      "description": "一个包含前端知识技术导航、代码开发规范、组件说明文档和其他各类文档的静态前端知识库网站",
+      "web": [
+        {
+          "name": "了解更多",
+          "url": "https://liuyuqin1991.github.io/front-doc"
+        }
+      ]
     }
   ]
 }
