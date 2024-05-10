@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fe2174a9757c9afa89e1be5b4cf0b42",
+    "revision": "638f3d35fcb0a80d29c8e9cbc9d454d4",
     "url": "/index.html"
   },
   {
-    "revision": "fc4a870d0eff3c08aa5a",
-    "url": "/static/css/main.dad4ba99.chunk.css"
+    "revision": "ca9873ffe43971225cea",
+    "url": "/static/css/main.b42c44a4.chunk.css"
   },
   {
-    "revision": "7340d03077e98364a4b2",
-    "url": "/static/js/2.94795126.chunk.js"
+    "revision": "9eca74e48c1a6fdc09f2",
+    "url": "/static/js/2.5e2c3d49.chunk.js"
   },
   {
-    "revision": "fc4a870d0eff3c08aa5a",
-    "url": "/static/js/main.69badec5.chunk.js"
+    "revision": "ca9873ffe43971225cea",
+    "url": "/static/js/main.1123f118.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "3a54ed81c2fee806d72b294a1392331a",
-    "url": "/static/media/2021.3a54ed81.svg"
+    "revision": "aee8caba72f4e7041d2fce9545d3c5ad",
+    "url": "/static/media/2024.aee8caba.svg"
   },
   {
     "revision": "a21f2cf1589faeb928b1cde46aa52429",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bg.40ba31e2.jpg"
   },
   {
+    "revision": "b539f19ff9834e36dbdf0a3daa5204b7",
+    "url": "/static/media/bilibili.b539f19f.svg"
+  },
+  {
     "revision": "6a88ed4c9c3ae633fa0f84609d6edeb4",
     "url": "/static/media/blog-active.6a88ed4c.svg"
   },
@@ -44,12 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/blog.8fe46fee.svg"
   },
   {
+    "revision": "f8014c84a6c2332aed171ff4b0dc927b",
+    "url": "/static/media/cat.f8014c84.svg"
+  },
+  {
+    "revision": "5915b9625768667980bd965cbb838c07",
+    "url": "/static/media/chrome-color-tip.5915b962.png"
+  },
+  {
     "revision": "456e626a41b50d3e36b58b57f4408b56",
     "url": "/static/media/code.456e626a.svg"
   },
   {
-    "revision": "4873d18c844413eb972cb874b2d62f66",
-    "url": "/static/media/code.4873d18c.svg"
+    "revision": "cff4d3f3cb0b59756382a41ca8b4b635",
+    "url": "/static/media/code.cff4d3f3.svg"
   },
   {
     "revision": "637a3e1068bc20d8175d78569bb75b24",
@@ -62,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6fc228ca97e6fb852c75635a2e0e4a4f",
     "url": "/static/media/contact.6fc228ca.svg"
+  },
+  {
+    "revision": "c4df158d5608fe7a782a17b704a4db6c",
+    "url": "/static/media/csdn.c4df158d.svg"
   },
   {
     "revision": "1d15ae0b71ed4efdbfeb6717a866d381",
@@ -96,6 +112,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/game.38e624e4.svg"
   },
   {
+    "revision": "41daee4644efd535f82c37d97570340d",
+    "url": "/static/media/gitee.41daee46.svg"
+  },
+  {
+    "revision": "c5997e8e2136a1aeb3631d1ec1ec1e16",
+    "url": "/static/media/github.c5997e8e.svg"
+  },
+  {
+    "revision": "ec48d7b955ebef549dedd7108ab51b4a",
+    "url": "/static/media/juejin.ec48d7b9.svg"
+  },
+  {
     "revision": "263d7cadc65e93c36db1b7823b9521dd",
     "url": "/static/media/life-active.263d7cad.svg"
   },
@@ -116,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/music.05ce66c2.svg"
   },
   {
-    "revision": "7f717f7128efe556dc018f210c2813d3",
-    "url": "/static/media/music.7f717f71.svg"
+    "revision": "494772b8421f8f6b93cbdefa302dd31b",
+    "url": "/static/media/music.494772b8.svg"
   },
   {
     "revision": "803516a0d22727919e89724c924091cd",
@@ -128,8 +156,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/position.156ce1be.svg"
   },
   {
-    "revision": "4d5d5f6471dbc40bce42b1ab52c2828b",
-    "url": "/static/media/profile.4d5d5f64.jpg"
+    "revision": "8976ea3ce385f556befcb8d0bb4493b5",
+    "url": "/static/media/profile.8976ea3c.jpeg"
+  },
+  {
+    "revision": "20d7652da4cb7e06f27f6c8fe6ba7be6",
+    "url": "/static/media/quickcss.20d7652d.png"
+  },
+  {
+    "revision": "d878c35e28cc00c2b111589f7c5fa528",
+    "url": "/static/media/react-datepicker.d878c35e.png"
   },
   {
     "revision": "73dcc9080407cce067b3e745fdc11215",
@@ -166,6 +202,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d8357235e31d6db1966837c468e9a1e",
     "url": "/static/media/user.6d835723.svg"
+  },
+  {
+    "revision": "5775bebc0be13a9182f709561d956f53",
+    "url": "/static/media/vscode-color-tip.5775bebc.png"
   },
   {
     "revision": "96b2adf2c9e4a01f8300ab04bcf1c4ca",
